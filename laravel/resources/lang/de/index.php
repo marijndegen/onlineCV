@@ -20,8 +20,8 @@ return [
 'intPhone' => '0031643404909', 
 'email' => 'marijn@helpaub.nl',
 
-'singleMail' => 'SINGLE CLICK MAIL',
-'singlePhone' => 'SINGLE CLICK PHONE',
+'singleMail' => 'SINGLE CLICK MAIL german:',
+'singlePhone' => 'SINGLE CLICK PHONE:',
 'headerHello' => 'Hi, I am ',
 'headerName' => 'MARIJN DEGEN',
 'headerIntro' => 'Advanced web programmer and network manager.',

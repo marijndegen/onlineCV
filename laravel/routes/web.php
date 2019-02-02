@@ -11,7 +11,14 @@
 |
 */
 
-Route::get('/', function () {
-    //TODO hier kijken hoe de baas het doet, nee, selecteer een taal en set de taal.
-    return view('index');
+Route::get('/', function ($locale) {
+	//TODO check ip address and return the correct locale
+	return view('index');
+});
+
+Route::get('{locale}', function ($locale) {
+	//Debugging flashes locale
+	//echo "<h1>$locale</h1>";
+    App::setLocale($locale);
+	return view('index');
 });

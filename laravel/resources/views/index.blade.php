@@ -38,8 +38,8 @@
 			<nav class="navbar navbar-expand-lg  navbar-light">
 				<div class="container">
 					<div>
-						<span>{{ trans('index.email') }}: <a href="mailto:marijn@helpaub.nl" target="_top">marijn@helpaub.nl</a></span> ---
-						<span>Single click phone: <a href="tel:0031643404909" target="_top">+31643404909</a></span>
+						<span>{{ trans('index.singleMail') }}: <a href="mailto:MARIJN@HELPAUB.NL" target="_top">marijn@helpaub.nl</a></span> ---
+						<span>{{ trans('index.singlePhone') }}:<a href="tel:0031643404909" target="_top">+31643404909</a></span>
 					</div>
 				</div>
 			</nav>
@@ -52,9 +52,9 @@
 				</div>
 				<div class="col-lg-6 col-md-12 banner-left">
 					<h1 class="text-white">
-						Hi, I’m <br>
-						<span>Marijn Degen</span> <br>
-						Advanced web programmer and network manager
+					  {{ trans('index.headerHello') }} <br>
+						<span>{{ trans('index.headerName') }}</span> <br>
+						{{ trans('index.headerIntro') }}
 					</h1>
 				</div>
 			</div>
@@ -68,9 +68,9 @@
 			<div class="row d-flex justify-content-center">
 				<div class="menu-content pb-70 col-lg-8">
 					<div class="title text-center">
-						<h1 class="mb-10">Have a Look at my skills and projects</h1>
-						<p class="italic-quote">Programming and network management has been my passion for the past
-							<script>document.write(new Date().getFullYear() - 2014);</script> years!</p>
+						<h1 class="mb-10">{{ trans('index.skillAndProject') }}</h1>
+						<p class="italic-quote">{{ trans('index.skillAndProjectQuote') }}
+							<script>document.write(new Date().getFullYear() - 2014);</script> {{ trans('index.skillAndProjectQuoteP2') }}!</p>
 					</div>
 				</div>
 			</div>
@@ -80,11 +80,9 @@
 						<img src="img/s1.png" alt="">
 					</div>
 					<div class="dec">
-						<h4 class="mt-30"><a href="#">Full stack web programming</a></h4>
+						<h4 class="mt-30"><a href="#">{{ trans('index.tile1Title') }}</a></h4>
 						<p class="mt-20">
-							Writing new websites and tools with the newest coolest javascript technology has become a hobby of mine, aside
-							from the career aspect. Especially react & end-to-end testing really facinates me, writing a rest API in a new
-							programming language or framework is allways a fun thing to learn.
+            {{ trans('index.tile1Text') }}
 						</p>
 					</div>
 				</div>
@@ -93,11 +91,9 @@
 						<img src="img/s2.png" alt="">
 					</div>
 					<div class="dec">
-						<h4 class="mt-30"><a href="#">Blockchain projects</a></h4>
+						<h4 class="mt-30"><a href="#">{{ trans('index.tile2Title') }}</a></h4>
 						<p class="mt-20">
-							In 2018 I had the honour to make a voting project based on blockchain, we as a project group choose ethereum, at
-							that time I took responsibility for the communication between the blockchain smart contracts and the java
-							backend.
+            {{ trans('index.tile2Text') }}
 						</p>
 					</div>
 				</div>
@@ -106,10 +102,9 @@
 						<img src="img/s3.png" alt="">
 					</div>
 					<div class="dec">
-						<h4 class="mt-30"><a href="#">Embedded solutions and IOT</a></h4>
+						<h4 class="mt-30"><a href="#">{{ trans('index.tile3Title') }}</a></h4>
 						<p class="mt-20">
-							When I face practical problems in life, I allways try to think of an IOT solution that would solve the problem
-							and maybe even harvest data for big data purposes, arduino and raspberry are my favorite tools.
+            {{ trans('index.tile3Text') }}
 						</p>
 					</div>
 				</div>
@@ -118,11 +113,9 @@
 						<img src="img/s4.png" alt="">
 					</div>
 					<div class="dec">
-						<h4 class="mt-30"><a href="#">Network management</a></h4>
+						<h4 class="mt-30"><a href="#">{{ trans('index.tile4Title') }}</a></h4>
 						<p class="mt-20">
-							After graduating in 2016 for my network management degree I decided that I wanted to become a complete technical
-							person. This doesn't mean that I left this working field all toghether, I am still ambitious to setup new
-							networks, IP camera's and network attached storages when I'm not programming.
+            {{ trans('index.tile4Text') }}
 						</p>
 					</div>
 				</div>
@@ -138,16 +131,15 @@
 			<div class="row d-flex justify-content-center">
 				<div class="menu-content pb-70 col-lg-8">
 					<div class="title text-center">
-						<h1 class="mb-10">About my career</h1>
-						<p class="italic-quote">Helping people with computer problems convinced me to be more dedicated to computers,
-							programming and networks.</p>
+						<h1 class="mb-10">{{ trans('index.aboutCareer') }}</h1>
+						<p class="italic-quote">{{ trans('index.aboutCareerQuote') }}</p>
 					</div>
 				</div>
 			</div>
 			<div class="row">
 				<div class="col-lg-6 about-left">
-					<h4 class="pb-10">Programming and general skills</h4>
-					<p>The percentage represents how comfortable I feel in programming with this topic.</p>
+					<h4 class="pb-10">{{ trans('index.aboutCareerProgramming') }}</h4>
+					<p>{{ trans('index.aboutCareerProgrammingDescription') }}</p>
 					<div class="skillbar" data-percent="65%">
 						<div class="skill-bar-percent">Java 65%</div>
 						<div class="skillwrap">
@@ -184,14 +176,14 @@
 					</div>
 
 					<div class="skillbar" data-percent="60%">
-						<div class="skill-bar-percent">End-to-end testing with puppeteer, unit testing in general 60%</div>
+						<div class="skill-bar-percent">{{ trans('index.aboutCareerProgrammingTesting') }} 60%</div>
 						<div class="skillwrap">
 							<div class="skillbar-bar" style="width: 60%;"></div>
 						</div>
 					</div>
 
 					<div class="skillbar" data-percent="30%">
-						<div class="skill-bar-percent">Css and photoshop 30%</div>
+						<div class="skill-bar-percent">{{ trans('index.aboutCareerProgrammingCssAndPhotoshop') }} 30%</div>
 						<div class="skillwrap">
 							<div class="skillbar-bar" style="width: 30%;"></div>
 						</div>
@@ -205,14 +197,14 @@
 					</div>
 
 					<div class="skillbar" data-percent="65%">
-						<div class="skill-bar-percent">Small bussiness to medium bussiness (wireless) networks 65%</div>
+						<div class="skill-bar-percent">{{ trans('index.aboutCareerProgrammingNetworking') }} 65%</div>
 						<div class="skillwrap">
 							<div class="skillbar-bar" style="width: 65%;"></div>
 						</div>
 					</div>
 
 					<div class="skillbar" data-percent="95%">
-						<div class="skill-bar-percent">English language 95%</div>
+						<div class="skill-bar-percent">{{ trans('index.aboutCareerProgrammingEnglish') }} 95%</div>
 						<div class="skillwrap">
 							<div class="skillbar-bar" style="width: 95%;"></div>
 						</div>
@@ -222,10 +214,10 @@
 					<div class="myself-wrap">
 						<img class="img-fluid" src="img/about-img.jpg" alt="">
 						<div class="desc">
-							<h4>Marijn Degen</h4>
-							<p>Full stack web developer</p>
-							<p>Smart contract writer</p>
-							<p>Network manager</p>
+							<h4>{{ trans('index.cardName') }}</h4>
+							<p>{{ trans('index.cardTitle1') }}</p>
+							<p>{{ trans('index.cardTitle2') }}</p>
+							<p>{{ trans('index.cardTitle3') }}</p>
 							<p><span class="lnr lnr-phone"></span> <a href="tel:0031643404909" target="_top">+31643404909</a></p>
 							<p><span class="lnr lnr-envelope"></span> <a href="mailto:marijn@helpaub.nl" target="_top">marijn@helpaub.nl</a></p>
 						</div>
@@ -242,58 +234,56 @@
 			<div class="row d-flex justify-content-center">
 				<div class="menu-content pb-20 col-lg-8">
 					<div class="title text-center">
-						<h1 class="mb-10">My career sofar</h1>
-						<p>My educations and my internships.</p>
+						<h1 class="mb-10">{{ trans('index.carreerSoFar') }}</h1>
+						<p>{{ trans('index.carreerSoFarQuote') }}</p>
 					</div>
 				</div>
 			</div>
 			<div class="row d-flex justify-content-center">
 				<div class="col-lg-6 col-md-6 qty-left">
 					<div class="single-qly">
-						<h3 class="text-uppercase">HBO - HAN university of applied sience</h3>
-						<p>September 2016 to Present</p>
-						<h4 class="pt-20 pb-20">Webdevelopment</h4>
+						<h3 class="text-uppercase">{{ trans('index.schoolItem1') }}</h3>
+						<p>{{ trans('index.schoolItem1Date') }}</p>
+						<h4 class="pt-20 pb-20">{{ trans('index.schoolItem1Title') }}</h4>
 						<p>
-							What I really like on my current education is learning new technologies, but also the
-							principles of developing applications in a team (with SCRUM). 
-							I choose webdevelopment instead of software development because I think making applications 
-							for cross platforms is really cool in general and what is more cross platform than the web?
+            {{ trans('index.schoolItem1Desciption') }}
 						</p>
 					</div>
 					<div class="btm-border d-block mx-auto"></div>
 					<div class="single-qly">
-						<h3 class="text-uppercase">MBO - ROC Nijmegen the school of life</h3>
-						<p>September 2013 to july 2016</p>
-						<h4 class="pt-20 pb-20">IT administrator & media - level 4</h4>
+						<h3 class="text-uppercase">{{ trans('index.schoolItem2') }}</h3>
+						<p>{{ trans('index.schoolItem2Date') }}</p>
+						<h4 class="pt-20 pb-20">{{ trans('index.schoolItem2Title') }}</h4>
 						<p>
-							During this time I had three succesfull internships and I learned the following things:
+            {{ trans('index.schoolItem2Desciption') }}
 							<ol>
-								<li>Windows server 2012 R2</li>
-								<li>Cisco CCNA 1 & CCNA certificates (network principles)</li>
-								<li>Basic programming with java & PHP</li>
+								<li>{{ trans('index.schoolItem2OL1') }}</li>
+								<li>{{ trans('index.schoolItem2OL2') }}</li>
+								<li>{{ trans('index.schoolItem2OL3') }}</li>
 							</ol>
 						</p>
 					</div>
 				</div>
 				<div class="col-lg-6 col-md-6 qty-right">
 					<div class="single-qly">
-						<h4 class="pb-20">Precision makers</h4>
-						<p><b>Country</b>: The Netherlands</p>
-						<p><b>tasks</b>: Solder PCBs and solder cables for revolutionary autonomous tractors.</p>
+						<h4 class="pb-20">{{ trans('index.internShipItem1') }}</h4>
+						<p><b>{{ trans('index.county') }}</b>: {{ trans('index.internShipItem1Company') }}</p>
+						<p><b>{{ trans('index.date') }}</b>: {{ trans('index.internShipItem1Date') }}</p>
+						<p><b>{{ trans('index.tasks') }}</b>: {{ trans('index.internShipItem1Tasks') }}</p>
 					</div>
 					<div class="btm-border d-block mx-auto"></div>
 					<div class="single-qly">
-						<h4 class="pb-20">E-Commerce park</h4>
-						<p><b>Country</b>: Curaçao</p>
-						<p><b>tasks</b>: Recieve client servers, unpack client servers, rack the servers in the trays and install the
-							requested OS on the server so the client can work on them.</p>
+						<h4 class="pb-20">{{ trans('index.internShipItem2') }}</h4>
+						<p><b>{{ trans('index.county') }}</b>: {{ trans('index.internShipItem2Company') }}</p>
+						<p><b>{{ trans('index.date') }}</b>: {{ trans('index.internShipItem2Date') }}</p>
+						<p><b>{{ trans('index.tasks') }}</b>: {{ trans('index.internShipItem2Tasks') }}</p>
 					</div>
 					<div class="btm-border d-block mx-auto"></div>
 					<div class="single-qly">
-						<h4 class="pb-20">ROC - Nijmegen</h4>
-						<p><b>Country</b>: The Netherlands</p>
-						<p><b>Tasks</b>: Help teachers and students with PC problems and connectivity problems, put new images on
-							computers and laptops through the network, fixing printer drivers.</p>
+						<h4 class="pb-20">{{ trans('index.internShipItem3') }}</h4>
+						<p><b>{{ trans('index.county') }}</b>: {{ trans('index.internShipItem3Company') }}</p>
+						<p><b>{{ trans('index.date') }}</b>: {{ trans('index.internShipItem3Date') }}</p>
+						<p><b>{{ trans('index.tasks') }}</b>: {{ trans('index.internShipItem3Tasks') }}</p>
 					</div>
 				</div>
 			</div>
@@ -307,9 +297,8 @@
 			<div class="row">
 				<div class="col-lg-12  col-md-12 col-sm-12">
 					<p class="footer-text">Copyright &copy;
-						<script>document.write(new Date().getFullYear());</script> All rights reserved | With <i class="fa fa-heart-o"
-						 aria-hidden="true"></i> thank you kindly <a href="https://colorlib.com" target="_blank">Colorlib</a> for this
-						cool template, Marijn Degen. KVK Netherlands Chamber of Commerce number: 72942371</p>
+						<script>document.write(new Date().getFullYear());</script> {{ trans('index.copyright1') }} <i class="fa fa-heart-o"
+						 aria-hidden="true"></i> {{ trans('index.copyright2') }} <a href="https://colorlib.com" target="_blank">{{ trans('index.copyright3') }}</a> {{ trans('index.copyright4') }}</p>
 				</div>
 				<div class="col-lg-2 col-md-6 col-sm-6 social-widget">
 				</div>
