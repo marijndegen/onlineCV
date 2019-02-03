@@ -83,15 +83,15 @@ return [
 */
 'schoolItem1' => 'HBO - HAN UNIVERSITY OF APPLIED SIENCE',
 'schoolItem1Date' => 'September 2016 to Present',
-'schoolItem1Title' => 'Webdevelopment',
-'schoolItem1Desciption' => 'What I really like on my current education is learning new technologies, but also the principles of developing applications in a team (with SCRUM). I choose webdevelopment instead of software development because I think making applications for cross platforms is really cool in general and what is more cross platform than the web?',
+'schoolItem1Title' => 'Web development',
+'schoolItem1Desciption' => 'What I really like on my current education is learning new technologies, but also the principles of developing applications in a team (with SCRUM). I choose web development instead of software development because I think making applications for cross platforms is really cool in general and what is more cross platform than the web?',
 
 'schoolItem2' => 'MBO - ROC NIJMEGEN THE SCHOOL OF LIFE',
 'schoolItem2Date' => 'September 2013 to july 2016',
 'schoolItem2Title' => 'IT administrator & media - level 4',
-'schoolItem2Desciption' => 'During this time I had three succesfull internships and I learned the following things:',
+'schoolItem2Desciption' => 'During this time I had three succesful internships and I learned the following things:',
 'schoolItem2OL1' => 'Windows server 2012 R2',
-'schoolItem2OL2' => 'Cisco CCNA 1 & CCNA certificates (network principles)',
+'schoolItem2OL2' => 'Cisco CCNA 1 & CCNA 2 certification (network principles)',
 'schoolItem2OL3' => 'Basic programming with java & PHP',
 
 /*
@@ -109,7 +109,7 @@ return [
 'internShipItem2' => 'E-Commerce park',
 'internShipItem2Company' => 'Curaçao',
 'internShipItem2Date' => '2/2016 - 7/2016',
-'internShipItem2Tasks' => 'Recieve client servers, unpack client servers, rack the servers in the trays and install the requested OS on the server so the client can work on them.',
+'internShipItem2Tasks' => 'Receive cliënt servers, unpack client servers, rack the servers in the trays and install the requested OS on the server so the client can work on them.',
 
 'internShipItem3' => 'ROC - Nijmegen',
 'internShipItem3Company' => 'The Netherlands',

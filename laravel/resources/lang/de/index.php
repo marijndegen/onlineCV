@@ -82,17 +82,17 @@ return [
     schools
 */
 'schoolItem1' => 'HBO - HAN UNIVERSITY OF APPLIED SIENCE',
-'schoolItem1Date' => 'September 2016 bis zur Gegenwart',
+'schoolItem1Date' => '9/2016 bis zur Gegenwart',
 'schoolItem1Title' => 'Webentwicklung',
-'schoolItem1Desciption' => 'What I really like on my current education is learning new technologies, but also the principles of developing applications in a team (with SCRUM). I choose webdevelopment instead of software development because I think making applications for cross platforms is really cool in general and what is more cross platform than the web?',
+'schoolItem1Desciption' => 'Was ich an meiner derzeitigen Ausbildung wirklich mag, ist das Erlernen neuer Technologien, aber auch die Prinzipien der Anwendungsentwicklung im Team (mit SCRUM).. Ich habe mich für die Webentwicklung entschieden, weil es meiner Meinung nach wichtig ist, dass Programme plattformübergreifend sind.',
 
 'schoolItem2' => 'MBO - ROC NIJMEGEN THE SCHOOL OF LIFE',
-'schoolItem2Date' => 'September 2013 to july 2016',
+'schoolItem2Date' => '9/2013 bis 7/2016',
 'schoolItem2Title' => 'IT administrator & media - level 4',
-'schoolItem2Desciption' => 'During this time I had three succesfull internships and I learned the following things:',
+'schoolItem2Desciption' => 'In dieser Zeit hatte ich drei erfolgreiche Praktika und lernte folgende Dinge:',
 'schoolItem2OL1' => 'Windows server 2012 R2',
-'schoolItem2OL2' => 'Cisco CCNA 1 & CCNA certificates (network principles)',
-'schoolItem2OL3' => 'Basic programming with java & PHP',
+'schoolItem2OL2' => 'Cisco CCNA 1 & CCNA 2-Zertifizierung (Netzwerkprinzipien)',
+'schoolItem2OL3' => 'Grundlegende Programmierung mit Java & PHP',
 
 /*
     Internships
@@ -102,23 +102,23 @@ return [
 
 */
 'internShipItem1' => 'Precision makers',
-'internShipItem1Company' => 'The Netherlands',
+'internShipItem1Company' => 'Die Niederlande',
 'internShipItem1Date' => '2014 - 2015',
-'internShipItem1Tasks' => 'Solder PCBs and solder cables for revolutionary autonomous tractors.',
+'internShipItem1Tasks' => 'Das Löten von Leiterplatten und Kabeln für revolutionäre autonome Traktoren.',
 
 'internShipItem2' => 'E-Commerce park',
 'internShipItem2Company' => 'Curaçao',
-'internShipItem2Date' => '2/2016 - 7/2016',
-'internShipItem2Tasks' => 'Recieve client servers, unpack client servers, rack the servers in the trays and install the requested OS on the server so the client can work on them.',
+'internShipItem2Date' => '2/2016 bis 7/2016',
+'internShipItem2Tasks' => 'Empfangen Servers von Kunden, entpacken Sie die Server der Kunden, Legen die Server in die Schränke und installier das angefordert OS.',
 
 'internShipItem3' => 'ROC - Nijmegen',
-'internShipItem3Company' => 'The Netherlands',
-'internShipItem3Date' => '8/2014 - 2/2015',
-'internShipItem3Tasks' => 'Help teachers and students with PC problems and connectivity problems, put new images on computers and laptops through the network, fixing printer drivers.',
+'internShipItem3Company' => 'Die Niederlande',
+'internShipItem3Date' => '8/2014 bis 2/2015',
+'internShipItem3Tasks' => 'Helfen Sie Lehrern und Schülern bei PC-Problemen und Verbindungsproblemen, Legen Sie neue images auf Computern und Laptops über das Netzwerk ab und reparieren printer drivers.',
 
-'copyright1' => 'All rights reserved | With',
-'copyright2' => 'thank you kindly',
+'copyright1' => 'All rights reserved | Mit',
+'copyright2' => 'dankesehr',
 'copyright3' => 'Colorlib',
-'copyright4' => ' for this cool template, Marijn Degen. KVK Netherlands Chamber of Commerce number: 72942371',
+'copyright4' => ' Für diese coole Vorlage, Marijn Degen. kvk Niederlande: 72942371',
 
 ];
