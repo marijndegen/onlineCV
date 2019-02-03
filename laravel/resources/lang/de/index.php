@@ -24,7 +24,7 @@ return [
 'singlePhone' => 'SINGLE CLICK PHONE:',
 'headerHello' => 'Hallo, ich bin',
 'headerName' => 'MARIJN DEGEN',
-'headerIntro' => 'Fortgeschrittener Webprogrammierer und Netzwerkmanager.',
+'headerIntro' => 'Fortgeschrittener Web-Entwickler und Netzwerkmanager.',
 
 /*
     Skills and projects
@@ -42,48 +42,48 @@ return [
 'tile3Title' => 'Embedded solutions und IOT',
 'tile3Text' => 'Wann ich praktische Probleme in das Leben haben, dann versuche ich immer eine IOT-Lösung zu denken, und wenn möglich, große Datenmengen aus der Lösung zu gewinnen.',
 
-'tile4Title' => 'Network management',
-'tile4Text' => 'After graduating in 2016 for my network management degree I decided that I wanted to become a complete technical person. This does not mean that I left this working field all toghether, I am still ambitious to setup new networks, IP cameras and network attached storages when I am not programming.',
+'tile4Title' => 'Netzwerk Management',
+'tile4Text' => 'Nach meinem Abschluss im Jahr 2016 für mein Netzwerk-Management-Studium habe ich beschlossen, eine komplette technische Person zu werden. Dies bedeutet nicht, dass ich dieses Arbeitsfeld alle zusammen verlassen habe. Ich bin immer noch ehrgeizig, neue Netzwerke, IP-Kameras und an das Netzwerk angeschlossene Speicher einzurichten, wenn ich nicht programmiere.',
 
 /*
     Career text
 */
 
-'aboutCareer' => 'About my career',
-'aboutCareerQuote' => 'Helping people with computer problems convinced me to be more dedicated to computers, programming and networks.',
+'aboutCareer' => 'Über meine Karriere',
+'aboutCareerQuote' => 'Menschen mit Computerproblemen zu helfen, hat mich überzeugt, mich mehr mit Computern, Programmieren und Netzwerken zu beschäftigen.',
 
-'aboutCareerProgramming' => 'Programming and general skills',
-'aboutCareerProgrammingDescription' => 'The percentage represents how comfortable I feel in programming with this topic.',
-'aboutCareerProgrammingTesting' => 'End-to-end testing with puppeteer, unit testing in general',
-'aboutCareerProgrammingCssAndPhotoshop' => 'Css and photoshop',
-'aboutCareerProgrammingNetworking' => 'Small bussiness to medium bussiness (wireless) networks',
-'aboutCareerProgrammingEnglish' => 'English language',
+'aboutCareerProgramming' => 'Programmieren und allgemeine Fähigkeiten',
+'aboutCareerProgrammingDescription' => 'Der Prozentanteil repräsentiert wie bequem ich mich fühle mit das Thema',
+'aboutCareerProgrammingTesting' => 'End-to-end testing mit puppeteer, unit testing im Allgemeinen',
+'aboutCareerProgrammingCssAndPhotoshop' => 'Css und photoshop',
+'aboutCareerProgrammingNetworking' => 'Kleinunternehmen bis mittleres Geschäft (drahtlose) Netzwerke',
+'aboutCareerProgrammingEnglish' => 'Englische Sprache',
 
 
 /*
     Card text
 */
 'cardName' => 'Marijn Degen',
-'cardTitle1' => 'Full stack web developer',
-'cardTitle2' => 'Smart contract writer',
-'cardTitle3' => 'Network manager',
+'cardTitle1' => 'Full stack Web-Entwickler',
+'cardTitle2' => 'Smart contract schreiber',
+'cardTitle3' => 'Netzwerk Manager',
 
 /*
     Actual CV text
 */
-'carreerSoFar' => 'My career so far',
-'carreerSoFarQuote' => 'My educations and my internships.',
+'carreerSoFar' => 'Meine Karriere bisher',
+'carreerSoFarQuote' => 'Meine Ausbildung und meine Praktika.',
 
-'county' => 'County',
-'date' => 'Date',
-'tasks' => 'Tasks',
+'county' => 'Land',
+'date' => 'Datum',
+'tasks' => 'Aufgaben',
 
 /*
     schools
 */
 'schoolItem1' => 'HBO - HAN UNIVERSITY OF APPLIED SIENCE',
-'schoolItem1Date' => 'September 2016 to Present',
-'schoolItem1Title' => 'Webdevelopment',
+'schoolItem1Date' => 'September 2016 bis zur Gegenwart',
+'schoolItem1Title' => 'Webentwicklung',
 'schoolItem1Desciption' => 'What I really like on my current education is learning new technologies, but also the principles of developing applications in a team (with SCRUM). I choose webdevelopment instead of software development because I think making applications for cross platforms is really cool in general and what is more cross platform than the web?',
 
 'schoolItem2' => 'MBO - ROC NIJMEGEN THE SCHOOL OF LIFE',
