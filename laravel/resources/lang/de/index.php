@@ -20,27 +20,27 @@ return [
 'intPhone' => '0031643404909', 
 'email' => 'marijn@helpaub.nl',
 
-'singleMail' => 'SINGLE CLICK MAIL german:',
+'singleMail' => 'SINGLE CLICK MAIL:',
 'singlePhone' => 'SINGLE CLICK PHONE:',
-'headerHello' => 'Hi, I am ',
+'headerHello' => 'Hallo, ich bin',
 'headerName' => 'MARIJN DEGEN',
-'headerIntro' => 'Advanced web programmer and network manager.',
+'headerIntro' => 'Fortgeschrittener Webprogrammierer und Netzwerkmanager.',
 
 /*
     Skills and projects
 */
 
-'skillAndProject' => 'Have a Look at my skills and projects',
-'skillAndProjectQuote' => 'Programming and network management has been my passion for the past 5 years!',
-'skillAndProjectQuoteP2' => 'years!',
-'tile1Title' => 'Full stack web programming',
-'tile1Text' => 'Writing new websites and tools with the newest coolest javascript technology has become a hobby of mine, aside from the career aspect. Especially react & end-to-end testing really facinates me, writing a rest API in a new programming language or framework is allways a fun thing to learn.',
+'skillAndProject' => 'Meine Fähigkeiten und Projekte',
+'skillAndProjectQuote' => 'Programmierung und Netzwerkmanagement ist mein Leidenschaft seit',
+'skillAndProjectQuoteP2' => 'jahre!',
+'tile1Title' => 'Full stack web Programmierung',
+'tile1Text' => 'Schreiben neue websites und tools mit das neueste javascript technology ist einem hobby von mir, neben meiner Karriere. Vor allem react und end-to-end testing fasziniert mich, ein neue rest API in ein neue Programmiersprache schreibe ist immer gut und schön zu lernen.',
 
 'tile2Title' => 'Blockchain projects',
-'tile2Text' => 'In 2018 I had the honour to make a voting project based on blockchain, we as a project group choose ethereum, at that time I took responsibility for the communication between the blockchain smart contracts and the java backend.',
+'tile2Text' => 'In 2018 hatte ich die ehre einer blockchain applicatie zu schreibe fur meine schule. Wir als eine mannsschaft hatte die Wahl gemacht euthereum zu verwenden. Damals war ich verantwortlich für die communication zwischen der java backend und der blockchain smart contracts.',
 
-'tile3Title' => 'Embedded solutions and IOT',
-'tile3Text' => 'When I face practical problems in life, I allways try to think of an IOT solution that would solve the problem and maybe even harvest data for big data purposes, arduino and raspberry are my favorite tools.',
+'tile3Title' => 'Embedded solutions und IOT',
+'tile3Text' => 'Wann ich praktische Probleme in das Leben haben, dann versuche ich immer eine IOT-Lösung zu denken, und wenn möglich, große Datenmengen aus der Lösung zu gewinnen.',
 
 'tile4Title' => 'Network management',
 'tile4Text' => 'After graduating in 2016 for my network management degree I decided that I wanted to become a complete technical person. This does not mean that I left this working field all toghether, I am still ambitious to setup new networks, IP cameras and network attached storages when I am not programming.',

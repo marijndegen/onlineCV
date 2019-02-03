@@ -31,7 +31,7 @@ return [
 */
 
 'skillAndProject' => 'Have a Look at my skills and projects',
-'skillAndProjectQuote' => 'Programming and network management has been my passion for the past 5 years!',
+'skillAndProjectQuote' => 'Programming and network management has been my passion for the past',
 'skillAndProjectQuoteP2' => 'years!',
 'tile1Title' => 'Full stack web programming',
 'tile1Text' => 'Writing new websites and tools with the newest coolest javascript technology has become a hobby of mine, aside from the career aspect. Especially react & end-to-end testing really facinates me, writing a rest API in a new programming language or framework is allways a fun thing to learn.',

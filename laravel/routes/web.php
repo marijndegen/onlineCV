@@ -11,14 +11,15 @@
 |
 */
 
-Route::get('/', function ($locale) {
+Route::get('/', function () {
 	//TODO check ip address and return the correct locale
 	return view('index');
 });
 
-Route::get('{locale}', function ($locale) {
-	//Debugging flashes locale
-	//echo "<h1>$locale</h1>";
+Route::get('/language/{locale}', function ($locale) {
+	// if($locale !== "de" || $locale !== "en" || $locale !== "nl"){
+	// 	$locale = "en";
+	// }
     App::setLocale($locale);
 	return view('index');
 });

@@ -22,12 +22,12 @@
 	<!--
 			CSS
 			============================================= -->
-	<link rel="stylesheet" href="css/linearicons.css">
-	<link rel="stylesheet" href="css/font-awesome.min.css">
-	<link rel="stylesheet" href="css/bootstrap.css">
-	<link rel="stylesheet" href="css/magnific-popup.css">
-	<link rel="stylesheet" href="css/owl.carousel.css">
-	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="/css/linearicons.css">
+	<link rel="stylesheet" href="/css/font-awesome.min.css">
+	<link rel="stylesheet" href="/css/bootstrap.css">
+	<link rel="stylesheet" href="/css/magnific-popup.css">
+	<link rel="stylesheet" href="/css/owl.carousel.css">
+	<link rel="stylesheet" href="/css/main.css">
 </head>
  
 <body>
@@ -48,7 +48,7 @@
 		<div class="container">
 			<div class="row justify-content-start align-items-center">
 				<div class="col-lg-6 col-md-12 no-padding banner-right">
-					<img class="img-fluid" src="img/header-img.png" alt="">
+					<img class="img-fluid" src="/img/header-img.png" alt="">
 				</div>
 				<div class="col-lg-6 col-md-12 banner-left">
 					<h1 class="text-white">
@@ -77,7 +77,7 @@
 			<div class="row">
 				<div class="single-skill col-lg-6 col-md-6 mb-30">
 					<div class="icon">
-						<img src="img/s1.png" alt="">
+						<img src="/img/s1.png" alt="">
 					</div>
 					<div class="dec">
 						<h4 class="mt-30"><a href="#">{{ trans('index.tile1Title') }}</a></h4>
@@ -88,7 +88,7 @@
 				</div>
 				<div class="single-skill col-lg-6 col-md-6 mb-30">
 					<div class="icon">
-						<img src="img/s2.png" alt="">
+						<img src="/img/s2.png" alt="">
 					</div>
 					<div class="dec">
 						<h4 class="mt-30"><a href="#">{{ trans('index.tile2Title') }}</a></h4>
@@ -99,7 +99,7 @@
 				</div>
 				<div class="single-skill col-lg-6 col-md-6">
 					<div class="icon">
-						<img src="img/s3.png" alt="">
+						<img src="/img/s3.png" alt="">
 					</div>
 					<div class="dec">
 						<h4 class="mt-30"><a href="#">{{ trans('index.tile3Title') }}</a></h4>
@@ -110,7 +110,7 @@
 				</div>
 				<div class="single-skill col-lg-6 col-md-6">
 					<div class="icon">
-						<img src="img/s4.png" alt="">
+						<img src="/img/s4.png" alt="">
 					</div>
 					<div class="dec">
 						<h4 class="mt-30"><a href="#">{{ trans('index.tile4Title') }}</a></h4>
@@ -212,7 +212,7 @@
 				</div>
 				<div class="col-lg-6 about-right justify-content-end d-flex">
 					<div class="myself-wrap">
-						<img class="img-fluid" src="img/about-img.jpg" alt="">
+						<img class="img-fluid" src="/img/about-img.jpg" alt="">
 						<div class="desc">
 							<h4>{{ trans('index.cardName') }}</h4>
 							<p>{{ trans('index.cardTitle1') }}</p>
@@ -307,16 +307,16 @@
 	</footer>
 	<!-- End footer Area -->
 
-	<script src="js/vendor/jquery-2.2.4.min.js"></script>
+	<script src="/js/vendor/jquery-2.2.4.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4"
 	 crossorigin="anonymous"></script>
-	<script src="js/vendor/bootstrap.min.js"></script>
-	<script src="js/jquery.ajaxchimp.min.js"></script>
-	<script src="js/jquery.magnific-popup.min.js"></script>
-	<script src="js/parallax.min.js"></script>
-	<script src="js/owl.carousel.min.js"></script>
-	<script src="js/jquery.sticky.js"></script>
+	<script src="/js/vendor/bootstrap.min.js"></script>
+	<script src="/js/jquery.ajaxchimp.min.js"></script>
+	<script src="/js/jquery.magnific-popup.min.js"></script>
+	<script src="/js/parallax.min.js"></script>
+	<script src="/js/owl.carousel.min.js"></script>
+	<script src="/js/jquery.sticky.js"></script>
 
-	<script src="js/main.js"></script>
+	<script src="/js/main.js"></script>
 </body>
 </html>
