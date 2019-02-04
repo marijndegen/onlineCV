@@ -36,12 +36,18 @@
 		<!-- Start Header Area -->
 		<header class="default-header">
 			<nav class="navbar navbar-expand-lg  navbar-light">
-				<div class="container">
-					<div>
+				<div class="container" style="display:inline">
+					<div style="display:inline">
 						<span>{{ trans('index.singleMail') }}: <a href="mailto:MARIJN@HELPAUB.NL" target="_top">marijn@helpaub.nl</a></span> ---
 						<span>{{ trans('index.singlePhone') }}:<a href="tel:0031643404909" target="_top">+31643404909</a></span>
+						<span style="width:350px; margin-left:20px;">
+							<a href="/nl"><img class="img-fluid" src="/img/flag_netherlands.png" alt=""></a>
+							<a href="/en"><img class="img-fluid" src="/img/flag_england.png" alt=""></a>
+							<a href="/de"><img class="img-fluid" src="/img/flag_germany.png" alt=""></a>
+						</span>
 					</div>
 				</div>
+				
 			</nav>
 		</header>
 		<!-- End Header Area -->

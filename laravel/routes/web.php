@@ -16,10 +16,10 @@ Route::get('/', function () {
 	return view('index');
 });
 
-Route::get('/language/{locale}', function ($locale) {
-	// if($locale !== "de" || $locale !== "en" || $locale !== "nl"){
-	// 	$locale = "en";
-	// }
+Route::get('/{locale}', function ($locale) {
+	if($locale !== "de" || $locale !== "en" || $locale !== "nl"){
+		$locale = "en";
+	}
     App::setLocale($locale);
 	return view('index');
 });
