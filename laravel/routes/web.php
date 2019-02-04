@@ -11,15 +11,9 @@
 |
 */
 
-Route::get('/', function () {
-	//TODO check ip address and return the correct locale
-	return view('index');
-});
+Route::get('/', 'LanguageController@select');
 
 Route::get('/{locale}', function ($locale) {
-	if($locale !== "de" || $locale !== "en" || $locale !== "nl"){
-		$locale = "en";
-	}
     App::setLocale($locale);
 	return view('index');
 });
