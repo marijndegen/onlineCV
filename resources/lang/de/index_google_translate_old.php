@@ -17,7 +17,7 @@ return [
 
 /*WHEN CHAING THESE, DON'T FORGET TO EDIT THE LINKS (yes, two links) IN THE .BLADE FILE!*/
 'phone' => '+31643404909',
-'intPhone' => '0031643404909',
+'intPhone' => '0031643404909', 
 'email' => 'marijn@helpaub.nl',
 
 'singleMail' => 'E-Mail mit einem Klick:',
@@ -31,18 +31,19 @@ return [
 */
 
 'skillAndProject' => 'Meine Fähigkeiten und Projekte',
-'skillAndProjectQuote' => 'Programmierung und Netzwerkmanagement sind meine Leidenschaft seit',
-'skillAndProjectQuoteP2' => 'Jahren!',
+'skillAndProjectQuote' => 'Programmierung und Netzwerkmanagement ist mein Leidenschaft seit',
+'skillAndProjectQuoteP2' => 'jahre!',
 'tile1Title' => 'Full stack web Programmierung',
-'tile1Text' => 'Ein Hobby von mir ist es, neue Websites und Tools mit der neusten Javascript Technology zu schreiben. Vor allem react und end-to-end testing fasziniert mich, Es macht mir Spaß ein neues REST API in einer neuen Programmierspache zu lernen',
+'tile1Text' => 'Schreiben neue websites und tools mit das neueste javascript technology ist einem hobby von mir, neben meiner Karriere. Vor allem react und end-to-end testing fasziniert mich, ein neue rest API in ein neue Programmiersprache schreibe ist immer gut und schön zu lernen.',
+
 'tile2Title' => 'Blockchain projects',
-'tile2Text' => '2018 hatte ich die Ehre eine Blockchain Applikation für meine Schule zu schreiben. Wir als Team hatten uns für euthereum entschieden. Ich war verantwortlich für die Kommunikation zwischen dem Java Backend und dem Blockchain Smartcontract.',
+'tile2Text' => 'In 2018 hatte ich die ehre einer blockchain applicatie zu schreibe fur meine schule. Wir als eine mannsschaft hatte die Wahl gemacht euthereum zu verwenden. Damals war ich verantwortlich für die communication zwischen der java backend und der blockchain smart contracts.',
 
 'tile3Title' => 'Embedded solutions und IOT',
-'tile3Text' => 'Wenn ich praktische Probleme im Leben habe, dann versuche ich immer eine IOT-Lösung zu finden, und wenn möglich, große Datenmengen aus der Lösung zu gewinnen.',
+'tile3Text' => 'Wann ich praktische Probleme in das Leben haben, dann versuche ich immer eine IOT-Lösung zu denken, und wenn möglich, große Datenmengen aus der Lösung zu gewinnen.',
 
 'tile4Title' => 'Netzwerk Management',
-'tile4Text' => 'Nach meinem Abschluss im Jahr 2016 im Bereich Netzwerk-Management habe ich beschlossen, mich weiterhin breit zu entwicklen. Dies bedeutet nicht, dass ich diesem Arbeitsfeld den Rücken zugekehrt habe. Ich richte immer noch neue Netzwerke, IP-Kameras und an das Netzwerk angeschlossene Speicher ein, wenn ich nich programmiere.',
+'tile4Text' => 'Nach meinem Abschluss im Jahr 2016 für mein Netzwerk-Management-Studium habe ich beschlossen, eine komplette technische Person zu werden. Dies bedeutet nicht, dass ich dieses Arbeitsfeld alle zusammen verlassen habe. Ich bin immer noch ehrgeizig, neue Netzwerke, IP-Kameras und an das Netzwerk angeschlossene Speicher einzurichten, wenn ich nicht programmiere.',
 
 /*
     Career text
@@ -52,10 +53,10 @@ return [
 'aboutCareerQuote' => 'Menschen mit Computerproblemen zu helfen, hat mich überzeugt, mich mehr mit Computern, Programmieren und Netzwerken zu beschäftigen.',
 
 'aboutCareerProgramming' => 'Programmieren und allgemeine Fähigkeiten',
-'aboutCareerProgrammingDescription' => 'Der Prozentanteil spiegelt meine Kompetenz in den jeweiligen Bereichen wider',
-'aboutCareerProgrammingTesting' => 'End-to-end testing mit Puppeteer, Unit testing im Allgemeinen',
+'aboutCareerProgrammingDescription' => 'Der Prozentanteil repräsentiert wie bequem ich mich fühle mit das Thema',
+'aboutCareerProgrammingTesting' => 'End-to-end testing mit puppeteer, unit testing im Allgemeinen',
 'aboutCareerProgrammingCssAndPhotoshop' => 'Css und photoshop',
-'aboutCareerProgrammingNetworking' => 'Kleinunternehmen bis mittlere Unternehmen (drahtlose) Netzwerke',
+'aboutCareerProgrammingNetworking' => 'Kleinunternehmen bis mittleres Geschäft (drahtlose) Netzwerke',
 'aboutCareerProgrammingEnglish' => 'Englische Sprache',
 
 
@@ -70,7 +71,7 @@ return [
 /*
     Actual CV text
 */
-'carreerSoFar' => 'Meine bisherige Karriere',
+'carreerSoFar' => 'Meine Karriere bisher',
 'carreerSoFarQuote' => 'Meine Ausbildung und meine Praktika.',
 
 'county' => 'Land',
@@ -88,7 +89,7 @@ return [
 'schoolItem2' => 'MBO - ROC NIJMEGEN THE SCHOOL OF LIFE',
 'schoolItem2Date' => '9/2013 bis 7/2016',
 'schoolItem2Title' => 'IT administrator & media - level 4',
-'schoolItem2Desciption' => 'In diesem Zeitraum hatte ich drei erfolgreiche Praktika und lernte folgende Aspekte:',
+'schoolItem2Desciption' => 'In dieser Zeit hatte ich drei erfolgreiche Praktika und lernte folgende Dinge:',
 'schoolItem2OL1' => 'Windows server 2012 R2',
 'schoolItem2OL2' => 'Cisco CCNA 1 & CCNA 2-Zertifizierung (Netzwerkprinzipien)',
 'schoolItem2OL3' => 'Grundlegende Programmierung mit Java & PHP',
@@ -108,15 +109,16 @@ return [
 'internShipItem2' => 'E-Commerce park',
 'internShipItem2Company' => 'Curaçao',
 'internShipItem2Date' => '2/2016 bis 7/2016',
-'internShipItem2Tasks' => 'Server von Kunden empfangen und entpacken, die Server in die Schränke legen und das angefragte OS installieren',
+'internShipItem2Tasks' => 'Empfangen Servers von Kunden, entpacken Sie die Server der Kunden, Legen die Server in die Schränke und installier das angefordert OS.',
 
 'internShipItem3' => 'ROC - Nijmegen',
 'internShipItem3Company' => 'Die Niederlande',
 'internShipItem3Date' => '8/2014 bis 2/2015',
-'internShipItem3Tasks' => 'Lehrern und Schülern bei PC-Problemen und Verbindungsproblemen geholfen, neue images auf Computern und Laptops über das Netzwerk abgelegt und printer drivers repariert.',
+'internShipItem3Tasks' => 'Helfen Sie Lehrern und Schülern bei PC-Problemen und Verbindungsproblemen, Legen Sie neue images auf Computern und Laptops über das Netzwerk ab und reparieren printer drivers.',
 
 'copyright1' => 'All rights reserved | Mit',
-'copyright2' => 'dankeschön an',
+'copyright2' => 'dankesehr',
 'copyright3' => 'Colorlib',
-'copyright4' => ' für diese coole Vorlage, Marijn Degen. kvk Niederlande: 72942371'
+'copyright4' => ' Für diese coole Vorlage, Marijn Degen. kvk Niederlande: 72942371',
+
 ];
