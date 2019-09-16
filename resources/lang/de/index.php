@@ -100,20 +100,25 @@ return [
 /*
 
 */
-'internShipItem1' => 'Precision makers',
+'internShipItem4' => 'Vathos Robotics',
+'internShipItem4Company' => 'Deutschland',
+'internShipItem4Date' => '09/2019 bis 2/2020',
+'internShipItem4Tasks' => 'Job beschreibung hier',
+
+'internShipItem3' => 'E-Commerce park',
+'internShipItem3Company' => 'Curaçao',
+'internShipItem3Date' => '2/2016 bis 7/2016',
+'internShipItem3Tasks' => 'Server von Kunden empfangen und entpacken, die Server in die Schränke legen und das angefragte OS installieren',
+
+'internShipItem2' => 'Precision makers',
+'internShipItem2Company' => 'Die Niederlande',
+'internShipItem2Date' => '2014 - 2015',
+'internShipItem2Tasks' => 'Das Löten von Leiterplatten und Kabeln für revolutionäre autonome Traktoren.',
+
+'internShipItem1' => 'ROC - Nijmegen',
 'internShipItem1Company' => 'Die Niederlande',
-'internShipItem1Date' => '2014 - 2015',
-'internShipItem1Tasks' => 'Das Löten von Leiterplatten und Kabeln für revolutionäre autonome Traktoren.',
-
-'internShipItem2' => 'E-Commerce park',
-'internShipItem2Company' => 'Curaçao',
-'internShipItem2Date' => '2/2016 bis 7/2016',
-'internShipItem2Tasks' => 'Server von Kunden empfangen und entpacken, die Server in die Schränke legen und das angefragte OS installieren',
-
-'internShipItem3' => 'ROC - Nijmegen',
-'internShipItem3Company' => 'Die Niederlande',
-'internShipItem3Date' => '8/2014 bis 2/2015',
-'internShipItem3Tasks' => 'Lehrern und Schülern bei PC-Problemen und Verbindungsproblemen geholfen, neue images auf Computern und Laptops über das Netzwerk abgelegt und printer drivers repariert.',
+'internShipItem1Date' => '8/2014 bis 2/2015',
+'internShipItem1Tasks' => 'Lehrern und Schülern bei PC-Problemen und Verbindungsproblemen geholfen, neue images auf Computern und Laptops über das Netzwerk abgelegt und printer drivers repariert.',
 
 'copyright1' => 'All rights reserved | Mit',
 'copyright2' => 'dankeschön an',

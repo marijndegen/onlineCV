@@ -101,20 +101,27 @@ return [
 /*
 
 */
-'internShipItem1' => 'Precision makers',
+
+'internShipItem4' => 'Vathos Robotics',
+'internShipItem4Company' => 'Germany',
+'internShipItem4Date' => '09/2019 - 2/2020',
+'internShipItem4Tasks' => 'Onderzoeken, implementeren, testen van een nieuwe Android app die productierobots aanstuurt. Bestaande functionaliteiten onderhouden.',
+'internShipItem4Tasks' => 'Researching, implement, testing of a new Android app that manages prodctionrobots. Maintaining existing functionality.',
+
+'internShipItem3' => 'E-Commerce park',
+'internShipItem3Company' => 'Curaçao',
+'internShipItem3Date' => '2/2016 - 7/2016',
+'internShipItem3Tasks' => 'Receive cliënt servers, unpack client servers, rack the servers in the trays and install the requested OS on the server so the client can work on them.',
+
+'internShipItem2' => 'Precision makers',
+'internShipItem2Company' => 'The Netherlands',
+'internShipItem2Date' => '2014 - 2015',
+'internShipItem2Tasks' => 'Solder PCBs and solder cables for revolutionary autonomous tractors.',
+
+'internShipItem1' => 'ROC - Nijmegen',
 'internShipItem1Company' => 'The Netherlands',
-'internShipItem1Date' => '2014 - 2015',
-'internShipItem1Tasks' => 'Solder PCBs and solder cables for revolutionary autonomous tractors.',
-
-'internShipItem2' => 'E-Commerce park',
-'internShipItem2Company' => 'Curaçao',
-'internShipItem2Date' => '2/2016 - 7/2016',
-'internShipItem2Tasks' => 'Receive cliënt servers, unpack client servers, rack the servers in the trays and install the requested OS on the server so the client can work on them.',
-
-'internShipItem3' => 'ROC - Nijmegen',
-'internShipItem3Company' => 'The Netherlands',
-'internShipItem3Date' => '8/2014 - 2/2015',
-'internShipItem3Tasks' => 'Help teachers and students with PC problems and connectivity problems, put new images on computers and laptops through the network, fixing printer drivers.',
+'internShipItem1Date' => '8/2014 - 2/2015',
+'internShipItem1Tasks' => 'Help teachers and students with PC problems and connectivity problems, put new images on computers and laptops through the network, fixing printer drivers.',
 
 'copyright1' => 'All rights reserved | With',
 'copyright2' => 'thank you kindly',

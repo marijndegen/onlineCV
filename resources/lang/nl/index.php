@@ -104,23 +104,25 @@ return [
 /*
 
 */
-'internShipItem1' => 'Precision makers',
-'internShipItem1Company' => 'Nederland',
-'internShipItem1Date' => '2014 - 2015',
-'internShipItem1Tasks' => 'Het solderen van PCBs en kabels voor revolutionaire autonome tractoren.',
+'internShipItem4' => 'Vathos Robotics',
+'internShipItem4Company' => 'Duitsland',
+'internShipItem4Date' => '09/2019 - 02/2020',
+'internShipItem4Tasks' => 'Onderzoeken, implementeren, testen van een nieuwe Android app die productierobots aanstuurt. Bestaande functionaliteiten onderhouden.',
 
+'internShipItem3' => 'E-Commerce park',
+'internShipItem3Company' => 'Curaçao',
+'internShipItem3Date' => '2/2016 - 7/2016',
+'internShipItem3Tasks' => 'Servers van klanten ontvangen en uit de doos halen, servers in de server tray installeren en het verzochte OS op de server installeren zodat de klant hier mee kan werken.',
 
+'internShipItem2' => 'Precision makers',
+'internShipItem2Company' => 'Nederland',
+'internShipItem2Date' => '2014 - 2015',
+'internShipItem2Tasks' => 'Het solderen van PCBs en kabels voor revolutionaire autonome tractoren.',
 
-'internShipItem2' => 'E-Commerce park',
-'internShipItem2Company' => 'Curaçao',
-'internShipItem2Date' => '2/2016 - 7/2016',
-'internShipItem2Tasks' => 'Servers van klanten ontvangen en uit de doos halen, servers in de server tray installeren en het verzochte OS op de server installeren zodat de klant hier mee kan werken.',
-
-
-'internShipItem3' => 'ROC - Nijmegen',
-'internShipItem3Company' => 'The Netherlands',
-'internShipItem3Date' => '8/2014 - 2/2015',
-'internShipItem3Tasks' => 'Leraren en studenten helpen bij PC problemen en netwerkproblemen, nieuwe images op computers en laptops zetten die corrupt zijn geraakt, printer drivers repareren.',
+'internShipItem1' => 'ROC - Nijmegen',
+'internShipItem1Company' => 'The Netherlands',
+'internShipItem1Date' => '8/2014 - 2/2015',
+'internShipItem1Tasks' => 'Leraren en studenten helpen bij PC problemen en netwerkproblemen, nieuwe images op computers en laptops zetten die corrupt zijn geraakt, printer drivers repareren.',
 
 'copyright1' => 'Alle rechten voorbehouden | Met',
 'copyright2' => 'bedankt',

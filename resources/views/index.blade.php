@@ -271,7 +271,7 @@
 					</div>
 				</div>
 				<div class="col-lg-6 col-md-6 qty-right">
-					<div class="single-qly">
+					<!-- <div class="single-qly">
 						<h4 class="pb-20">{{ trans('index.internShipItem1') }}</h4>
 						<p><b>{{ trans('index.county') }}</b>: {{ trans('index.internShipItem1Company') }}</p>
 						<p><b>{{ trans('index.date') }}</b>: {{ trans('index.internShipItem1Date') }}</p>
@@ -286,11 +286,20 @@
 					</div>
 					<div class="btm-border d-block mx-auto"></div>
 					<div class="single-qly">
-						<h4 class="pb-20">{{ trans('index.internShipItem3') }}</h4>
-						<p><b>{{ trans('index.county') }}</b>: {{ trans('index.internShipItem3Company') }}</p>
-						<p><b>{{ trans('index.date') }}</b>: {{ trans('index.internShipItem3Date') }}</p>
-						<p><b>{{ trans('index.tasks') }}</b>: {{ trans('index.internShipItem3Tasks') }}</p>
+						<h4 class="pb-20">{{ trans('index.internShipItem1') }}</h4>
+						<p><b>{{ trans('index.county') }}</b>: {{ trans('index.internShipItem1Company') }}</p>
+						<p><b>{{ trans('index.date') }}</b>: {{ trans('index.internShipItem1Date') }}</p>
+						<p><b>{{ trans('index.tasks') }}</b>: {{ trans('index.internShipItem1Tasks') }}</p>
+					</div> -->
+
+					@for($i = 4; $i > 0; $i--)
+					<div class="single-qly">
+						<h4 class="pb-20">{{ trans("index.internShipItem{$i}") }}</h4>
+						<p><b>{{ trans('index.county') }}</b>: {{ trans("index.internShipItem{$i}Company") }}</p>
+						<p><b>{{ trans('index.date') }}</b>: {{ trans("index.internShipItem{$i}Date") }}</p>
+						<p><b>{{ trans('index.tasks') }}</b>: {{ trans("index.internShipItem{$i}Tasks") }}</p>
 					</div>
+					@endfor
 				</div>
 			</div>
 		</div>
