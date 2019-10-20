@@ -271,7 +271,9 @@
 					</div>
 				</div>
 				<div class="col-lg-6 col-md-6 qty-right">
-					<!-- <div class="single-qly">
+
+					{{--Old code here--}}
+					{{-- <div class="single-qly">
 						<h4 class="pb-20">{{ trans('index.internShipItem1') }}</h4>
 						<p><b>{{ trans('index.county') }}</b>: {{ trans('index.internShipItem1Company') }}</p>
 						<p><b>{{ trans('index.date') }}</b>: {{ trans('index.internShipItem1Date') }}</p>
@@ -290,7 +292,7 @@
 						<p><b>{{ trans('index.county') }}</b>: {{ trans('index.internShipItem1Company') }}</p>
 						<p><b>{{ trans('index.date') }}</b>: {{ trans('index.internShipItem1Date') }}</p>
 						<p><b>{{ trans('index.tasks') }}</b>: {{ trans('index.internShipItem1Tasks') }}</p>
-					</div> -->
+					</div> --}}
 
 					@for($i = 4; $i > 0; $i--)
 					<div class="single-qly">
