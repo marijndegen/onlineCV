@@ -38,8 +38,8 @@
 			<nav class="navbar navbar-expand-lg  navbar-light">
 				<div class="container" style="display:inline">
 					<div style="display:inline">
-						<span>{{ trans('index.singleMail') }}: <a href="mailto:MARIJN@HELPAUB.NL" target="_top">marijn@helpaub.nl</a></span> ---
-						<span>{{ trans('index.singlePhone') }}:<a href="tel:0031643404909" target="_top">+31643404909</a></span>
+						<span>{{ trans('index.singleMail') }}: <a href="mailto:{{$email}}" target="_top">{{$email}}</a></span> ---
+						<span>{{ trans('index.singlePhone') }}:<a href="tel:{{$utel}}" target="_top">{{$tel}}</a></span>
 						<span style="width:350px; margin-left:20px;">
 							<a href="/nl"><img class="img-fluid" src="/img/flag_netherlands.png" alt=""></a>
 							<a href="/en"><img class="img-fluid" src="/img/flag_england.png" alt=""></a>
@@ -224,8 +224,8 @@
 							<p>{{ trans('index.cardTitle1') }}</p>
 							<p>{{ trans('index.cardTitle2') }}</p>
 							<p>{{ trans('index.cardTitle3') }}</p>
-							<p><span class="lnr lnr-phone"></span> <a href="tel:0031643404909" target="_top">+31643404909</a></p>
-							<p><span class="lnr lnr-envelope"></span> <a href="mailto:marijn@helpaub.nl" target="_top">marijn@helpaub.nl</a></p>
+							<p><span class="lnr lnr-phone"></span> <a href="tel:{{$utel}}" target="_top">{{$tel}}</a></p>
+							<p><span class="lnr lnr-envelope"></span> <a href="mailto:{{$email}}" target="_top">{{$email}}</a></p>
 						</div>
 					</div>
 				</div>

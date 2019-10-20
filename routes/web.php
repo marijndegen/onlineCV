@@ -11,9 +11,11 @@
 |
 */
 
+use App\Http\Controllers\LanguageController;
+
 Route::get('/', 'LanguageController@select');
 
 Route::get('/{locale}', function ($locale) {
     App::setLocale($locale);
-	return view('index');
+    return LanguageController::show();
 });
