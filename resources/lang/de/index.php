@@ -103,7 +103,7 @@ return [
 'internShipItem4' => 'Vathos Robotics',
 'internShipItem4Company' => 'Deutschland',
 'internShipItem4Date' => '09/2019 bis 2/2020',
-'internShipItem4Tasks' => 'Job beschreibung hier',
+'internShipItem4Tasks' => 'Die Implementierung einer App, die Industrieroboter steuert. Die App wurde mit Flutter (Dart) implementiert. Die wichtigste Funktionalität der App war das Hochladen von .CAD-Dateien für die Objekterkennung.',
 
 'internShipItem3' => 'E-Commerce park',
 'internShipItem3Company' => 'Curaçao',
