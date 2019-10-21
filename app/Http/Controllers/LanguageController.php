@@ -23,7 +23,7 @@ class LanguageController extends Controller
         $locale = $array["geoplugin_countryCode"];
 
         if(!$locale){
-            return view('index');
+            return view('index', self::$data);
         }
 
         switch($locale){
