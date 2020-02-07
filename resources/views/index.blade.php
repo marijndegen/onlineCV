@@ -167,6 +167,13 @@
 						</div>
 					</div>
 
+					<div class="skillbar" data-percent="65%">
+						<div class="skill-bar-percent">Dart {{trans('index.with')}} flutter 65%</div>
+						<div class="skillwrap">
+							<div class="skillbar-bar" style="width: 65%;"></div>
+						</div>
+					</div>
+
 					<div class="skillbar" data-percent="60%">
 						<div class="skill-bar-percent">Mysql 60%</div>
 						<div class="skillwrap">

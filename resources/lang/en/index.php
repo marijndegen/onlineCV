@@ -77,6 +77,7 @@ return [
 'county' => 'County',
 'date' => 'Date',
 'tasks' => 'Tasks',
+'with' => 'with',
 
 /*
     schools
