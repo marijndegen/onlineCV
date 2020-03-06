@@ -76,6 +76,7 @@ return [
 'county' => 'Land',
 'date' => 'Datum',
 'tasks' => 'Aufgaben',
+'met' => 'mit',
 
 /*
     schools

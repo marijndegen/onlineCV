@@ -79,6 +79,7 @@ return [
 'county' => 'Land',
 'date' => 'Datum',
 'tasks' => 'Werkzaamheden',
+'with' => 'met',
 
 /*
     schools
