@@ -10,13 +10,13 @@
 	<!-- Author Meta -->
 	<meta name="author" content="colorlib">
 	<!-- Meta Description -->
-	<meta name="description" content="">
+	<meta name="description" content="The resume of Marijn Degen, a Dutch Web & App programmmer and network manager.">
 	<!-- Meta Keyword -->
-	<meta name="keywords" content="">
+	<meta name="keywords" content="Marijn Degen, marijndegen, marijndegen.nl, programming, network management, resume, IT, Apps, Web, networks, wifi, internet, php, java, dart, javascript, photoshop, databases, german speaking, english speaking, drivers license, student">
 	<!-- meta character set -->
 	<meta charset="UTF-8">
 	<!-- Site Title -->
-	<title>Resume</title>
+	<title>Marijn Degen -- Resume</title>
 
 	<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,400,300,500,600,700" rel="stylesheet">
 	<!--
