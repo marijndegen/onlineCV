@@ -59,7 +59,8 @@ return [
 'aboutCareerProgrammingTesting' => 'End-to-end testen met puppeteer, unit testing in het algemeen',
 'aboutCareerProgrammingCssAndPhotoshop' => 'Css en photoshop',
 'aboutCareerProgrammingNetworking' => 'MKB (draadloze) netwerken',
-'aboutCareerProgrammingEnglish' => 'Engelse taal',
+'aboutCareerProgrammingEnglish' => 'Engelse taal niveau:',
+'aboutCareerProgrammingGerman' => 'Duitse taal niveau:',
 
 
 /*
@@ -67,8 +68,9 @@ return [
 */
 'cardName' => 'Marijn Degen',
 'cardTitle1' => 'Full stack web ontwikkelaar',
-'cardTitle2' => 'Smart contract schrijver',
+'cardTitle2' => 'App ontwikkelaar',
 'cardTitle3' => 'Netwerk beheerder',
+'cardTitle4' => 'Rijbewijzen: AM-B-BE-T',
 
 /*
     Actual CV text

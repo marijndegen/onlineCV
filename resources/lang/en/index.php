@@ -57,7 +57,9 @@ return [
 'aboutCareerProgrammingTesting' => 'End-to-end testing with puppeteer, unit testing in general',
 'aboutCareerProgrammingCssAndPhotoshop' => 'Css and photoshop',
 'aboutCareerProgrammingNetworking' => 'Small bussiness to medium bussiness (wireless) networks',
-'aboutCareerProgrammingEnglish' => 'English language',
+'aboutCareerProgrammingEnglish' => 'English language level:',
+'aboutCareerProgrammingGerman' => 'German language level:',
+
 
 
 /*
@@ -65,8 +67,9 @@ return [
 */
 'cardName' => 'Marijn Degen',
 'cardTitle1' => 'Full stack web developer',
-'cardTitle2' => 'Smart contract writer',
+'cardTitle2' => 'App developer',
 'cardTitle3' => 'Network manager',
+'cardTitle4' => 'Driving licences: AM-B-BE-T',
 
 /*
     Actual CV text
