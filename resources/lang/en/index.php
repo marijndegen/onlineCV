@@ -67,7 +67,7 @@ return [
 */
 'cardName' => 'Marijn Degen',
 'cardTitle1' => 'Full stack web developer',
-'cardTitle2' => 'Smart contract writer',
+'cardTitle2' => 'App developer',
 'cardTitle3' => 'Network manager',
 'cardTitle4' => 'Driving licences: AM-B-BE-T',
 

@@ -65,7 +65,7 @@ return [
 */
 'cardName' => 'Marijn Degen',
 'cardTitle1' => 'Full stack Web-Entwickler',
-'cardTitle2' => 'Smart contract schreiber',
+'cardTitle2' => 'App Entwickler',
 'cardTitle3' => 'Netzwerk Manager',
 'cardTitle4' => 'Führerscheine: AM-B-BE-L',
 
