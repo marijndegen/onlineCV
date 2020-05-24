@@ -34,7 +34,7 @@ return [
 'skillAndProjectQuote' => 'Programmierung und Netzwerkmanagement sind meine Leidenschaft seit',
 'skillAndProjectQuoteP2' => 'Jahren!',
 'tile1Title' => 'Full stack web Programmierung',
-'tile1Text' => 'Ein Hobby von mir ist es, neue Websites und Tools mit der neusten Javascript Technology zu schreiben. Vor allem react und end-to-end testing fasziniert mich, Es macht mir Spaß ein neues REST API in einer neuen Programmierspache zu lernen',
+'tile1Text' => 'Ein Hobby von mir ist es, neue Websites und Tools mit der neusten Javascript Technology zu schreiben. Vor allem react und end-to-end testing fasziniert mich, Es macht mir Spaß ein neues REST API in einer neuen Programmierspache zu lernen.',
 'tile2Title' => 'Blockchain projects',
 'tile2Text' => '2018 hatte ich die Ehre eine Blockchain Applikation für meine Schule zu schreiben. Wir als Team hatten uns für euthereum entschieden. Ich war verantwortlich für die Kommunikation zwischen dem Java Backend und dem Blockchain Smartcontract.',
 
@@ -84,7 +84,7 @@ return [
 'schoolItem1' => 'HBO - HAN UNIVERSITY OF APPLIED SIENCE',
 'schoolItem1Date' => '9/2016 bis zur Gegenwart',
 'schoolItem1Title' => 'Webentwicklung',
-'schoolItem1Desciption' => 'Was ich an meiner derzeitigen Ausbildung wirklich mag, ist das Erlernen neuer Technologien, aber auch die Prinzipien der Anwendungsentwicklung im Team (mit SCRUM).. Ich habe mich für die Webentwicklung entschieden, weil es meiner Meinung nach wichtig ist, dass Programme plattformübergreifend sind.',
+'schoolItem1Desciption' => 'Was ich an meiner derzeitigen Ausbildung wirklich mag, ist das Erlernen neuer Technologien, aber auch die Prinzipien der Anwendungsentwicklung im Team (mit SCRUM). Ich habe mich für die Webentwicklung entschieden, weil es meiner Meinung nach wichtig ist, dass Programme plattformübergreifend sind.',
 
 'schoolItem2' => 'MBO - ROC NIJMEGEN THE SCHOOL OF LIFE',
 'schoolItem2Date' => '9/2013 bis 7/2016',

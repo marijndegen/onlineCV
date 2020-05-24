@@ -31,8 +31,8 @@ return [
 */
 
 'skillAndProject' => 'Neem een kijkje in mijn projecten en vaardigheden',
-'skillAndProjectQuote' => 'Programmeren en netwerkbeheer is mijn passie voor de afgelopen',
-'skillAndProjectQuoteP2' => 'jaar.',
+'skillAndProjectQuote' => 'Programmeren en netwerkbeheer is mijn passie sinds',
+'skillAndProjectQuoteP2' => 'jaar',
 'tile1Title' => 'Full stack web programming',
 'tile1Text' => 'Nieuwe websites en tools schrijven met nieuwe javascript technologieën is een hobby van mij, los van het carrière aspect. Vooral react & end-to-end testing fascineren mij vooral, hoewel een rest API schrijven in een nieuwe programmeertaal ook altijd leuk is om te leren.',
 
@@ -49,7 +49,7 @@ return [
     Career text
 */
 
-'aboutCareer' => 'Over mijn carriere',
+'aboutCareer' => 'Over mijn carrière',
 'aboutCareerQuote' => 'Mensen helpen met computerproblemen overtuigde mij om meer toegewijd te zijn aan computers, programmeren en netwerken.',
 
 

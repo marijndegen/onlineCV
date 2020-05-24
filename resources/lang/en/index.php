@@ -34,7 +34,7 @@ return [
 'skillAndProjectQuote' => 'Programming and network management has been my passion for the past',
 'skillAndProjectQuoteP2' => 'years!',
 'tile1Title' => 'Full stack web programming',
-'tile1Text' => 'Writing new websites and tools with the newest coolest javascript technology has become a hobby of mine, aside from the career aspect. Especially react & end-to-end testing really facinates me, writing a rest API in a new programming language or framework is allways a fun thing to learn.',
+'tile1Text' => 'Writing new websites and tools with the newest coolest javascript technology has become a hobby of mine, aside from the career aspect. Especially react & end-to-end testing really fascinates me, writing a rest API in a new programming language or framework is allways a fun thing to learn.',
 
 'tile2Title' => 'Blockchain projects',
 'tile2Text' => 'In 2018 I had the honour to make a voting project based on blockchain, we as a project group choose ethereum, at that time I took responsibility for the communication between the blockchain smart contracts and the java backend.',
@@ -85,7 +85,7 @@ return [
 'schoolItem1' => 'HBO - HAN UNIVERSITY OF APPLIED SIENCE',
 'schoolItem1Date' => 'September 2016 to Present',
 'schoolItem1Title' => 'Web development',
-'schoolItem1Desciption' => 'What I really like on my current education is learning new technologies, but also the principles of developing applications in a team (with SCRUM). I choose web development instead of software development because I think making applications for cross platforms is really cool in general and what is more cross platform than the web?',
+'schoolItem1Desciption' => 'What I really like on my current education is learning new technologies, but also the principles of developing applications in a team (with SCRUM). I choose web development instead of software development because I think making applications cross platform is really cool in general and what is more cross platform than the web?',
 
 'schoolItem2' => 'MBO - ROC NIJMEGEN THE SCHOOL OF LIFE',
 'schoolItem2Date' => 'September 2013 to july 2016',
@@ -106,13 +106,12 @@ return [
 'internShipItem4' => 'Vathos Robotics',
 'internShipItem4Company' => 'Germany',
 'internShipItem4Date' => '09/2019 - 2/2020',
-'internShipItem4Tasks' => 'Onderzoeken, implementeren, testen van een nieuwe Android app die productierobots aanstuurt. Bestaande functionaliteiten onderhouden.',
-'internShipItem4Tasks' => 'Researching, implement, testing of a new Android app that manages prodctionrobots. Maintaining existing functionality.',
+'internShipItem4Tasks' => 'Researching, implementing and testing a new Android app that manages productionrobots based on AI. Maintaining existing functionality.',
 
 'internShipItem3' => 'E-Commerce park',
 'internShipItem3Company' => 'Curaçao',
 'internShipItem3Date' => '2/2016 - 7/2016',
-'internShipItem3Tasks' => 'Receive cliënt servers, unpack client servers, rack the servers in the trays and install the requested OS on the server so the client can work on them.',
+'internShipItem3Tasks' => 'Receiving cliënt servers, unpacking client servers, racking the servers in the trays and installing the requested OS on the server so the client can work on them.',
 
 'internShipItem2' => 'Precision makers',
 'internShipItem2Company' => 'The Netherlands',
@@ -122,7 +121,7 @@ return [
 'internShipItem1' => 'ROC - Nijmegen',
 'internShipItem1Company' => 'The Netherlands',
 'internShipItem1Date' => '8/2014 - 2/2015',
-'internShipItem1Tasks' => 'Help teachers and students with PC problems and connectivity problems, put new images on computers and laptops through the network, fixing printer drivers.',
+'internShipItem1Tasks' => 'Help teachers and students with PC problems and connectivity problems, putting new images on computers and laptops through the network, fixing printer drivers.',
 
 'copyright1' => 'All rights reserved | With',
 'copyright2' => 'thank you kindly',
