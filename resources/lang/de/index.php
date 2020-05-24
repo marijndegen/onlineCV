@@ -20,8 +20,8 @@ return [
 'intPhone' => '0031643404909',
 'email' => 'marijn@helpaub.nl',
 
-'singleMail' => 'E-Mail mit einem Klick:',
-'singlePhone' => 'Einzelklick-Konversation:',
+'singleMail' => 'E-Mail mit einem Klick',
+'singlePhone' => 'Einzelklick-Konversation',
 'headerHello' => 'Hallo, ich bin',
 'headerName' => 'MARIJN DEGEN',
 'headerIntro' => 'Fortgeschrittener Web-Entwickler und Netzwerkmanager.',
@@ -56,7 +56,8 @@ return [
 'aboutCareerProgrammingTesting' => 'End-to-end testing mit Puppeteer, Unit testing im Allgemeinen',
 'aboutCareerProgrammingCssAndPhotoshop' => 'Css und photoshop',
 'aboutCareerProgrammingNetworking' => 'Kleinunternehmen bis mittlere Unternehmen (drahtlose) Netzwerke',
-'aboutCareerProgrammingEnglish' => 'Englische Sprache',
+'aboutCareerProgrammingEnglish' => 'Englische Sprachniveau:',
+'aboutCareerProgrammingGerman' => 'Deutsche Sprachniveau:',
 
 
 /*
@@ -66,6 +67,7 @@ return [
 'cardTitle1' => 'Full stack Web-Entwickler',
 'cardTitle2' => 'Smart contract schreiber',
 'cardTitle3' => 'Netzwerk Manager',
+'cardTitle4' => 'Führerscheine: AM-B-BE-L',
 
 /*
     Actual CV text

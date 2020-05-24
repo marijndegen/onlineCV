@@ -216,10 +216,17 @@
 						</div>
 					</div>
 
-					<div class="skillbar" data-percent="95%">
-						<div class="skill-bar-percent">{{ trans('index.aboutCareerProgrammingEnglish') }} 95%</div>
+					<div class="skillbar" data-percent="85%">
+						<div class="skill-bar-percent">{{ trans('index.aboutCareerProgrammingEnglish') }} C1</div>
 						<div class="skillwrap">
-							<div class="skillbar-bar" style="width: 95%;"></div>
+							<div class="skillbar-bar" style="width: 85%;"></div>
+						</div>
+					</div>
+
+					<div class="skillbar" data-percent="38%">
+						<div class="skill-bar-percent">{{ trans('index.aboutCareerProgrammingGerman') }} B1 </div>
+						<div class="skillwrap">
+							<div class="skillbar-bar" style="width: 38%;"></div>
 						</div>
 					</div>
 				</div>
@@ -231,8 +238,11 @@
 							<p>{{ trans('index.cardTitle1') }}</p>
 							<p>{{ trans('index.cardTitle2') }}</p>
 							<p>{{ trans('index.cardTitle3') }}</p>
+
 							<p><span class="lnr lnr-phone"></span> <a href="tel:{{$utel}}" target="_top">{{$tel}}</a></p>
 							<p><span class="lnr lnr-envelope"></span> <a href="mailto:{{$email}}" target="_top">{{$email}}</a></p>
+							<p><span class="lnr lnr-car"></span> {{ trans('index.cardTitle4') }}</p>
+						
 						</div>
 					</div>
 				</div>
