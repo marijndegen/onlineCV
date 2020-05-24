@@ -19,3 +19,4 @@ Route::get('/{locale}', function ($locale) {
     App::setLocale($locale);
     return LanguageController::show();
 });
+
