@@ -71,6 +71,7 @@ return [
 'cardTitle2' => 'App ontwikkelaar',
 'cardTitle3' => 'Netwerk beheerder',
 'cardTitle4' => 'Rijbewijzen: AM-B-BE-T',
+'cardTitle5' => 'Certificaten',
 
 /*
     Actual CV text
