@@ -242,7 +242,7 @@
 							<p><span class="lnr lnr-phone"></span> <a href="tel:{{$utel}}" target="_top">{{$tel}}</a></p>
 							<p><span class="lnr lnr-envelope"></span> <a href="mailto:{{$email}}" target="_top">{{$email}}</a></p>
 							<p><span class="lnr lnr-car"></span> {{ trans('index.cardTitle4') }}</p>
-						
+							<p><span class="lnr lnr-license"></span> {{ trans('index.cardTitle5') }}: <br> Cisco CCNA 1 <br> Cisco CCNA 2 <br> Cisco IT Essentials</p>
 						</div>
 					</div>
 				</div>
