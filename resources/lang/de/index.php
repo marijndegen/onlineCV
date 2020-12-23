@@ -96,6 +96,7 @@ return [
 'cardTitle2' => 'App Entwickler',
 'cardTitle3' => 'Netzwerk Manager',
 'cardTitle4' => 'Führerscheine: AM-B-BE-L',
+'cardTitle5' => 'Zertifikate',
 
 /*
     Skills and projects
