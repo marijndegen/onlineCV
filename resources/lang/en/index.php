@@ -14,8 +14,9 @@ return [
 /*
     Header
 */
+'siteTitle' => 'Resume',
 
-/*WHEN CHAING THESE, DON'T FORGET TO EDIT THE LINKS (yes, two links) IN THE .BLADE FILE!*/
+/*WHEN CHANGING THESE, DON'T FORGET TO EDIT THE LINKS (yes, two links) IN THE .BLADE FILE!*/
 'phone' => '+31643404909',
 'intPhone' => '0031643404909', 
 'email' => 'marijn@helpaub.nl',
@@ -25,62 +26,6 @@ return [
 'headerHello' => 'Hi, I am ',
 'headerName' => 'MARIJN DEGEN',
 'headerIntro' => 'Advanced web programmer and network manager.',
-
-/*
-    Skills and projects
-*/
-
-'skillAndProject' => 'Have a Look at my skills and projects',
-'skillAndProjectQuote' => 'Programming and network management has been my passion for the past',
-'skillAndProjectQuoteP2' => 'years!',
-'tile1Title' => 'Full stack web programming',
-'tile1Text' => 'Writing new websites and tools with the newest coolest javascript technology has become a hobby of mine, aside from the career aspect. Especially react & end-to-end testing really fascinates me, writing a rest API in a new programming language or framework is allways a fun thing to learn.',
-
-'tile2Title' => 'Blockchain projects',
-'tile2Text' => 'In 2018 I had the honour to make a voting project based on blockchain, we as a project group choose ethereum, at that time I took responsibility for the communication between the blockchain smart contracts and the java backend.',
-
-'tile3Title' => 'Embedded solutions and IOT',
-'tile3Text' => 'When I face practical problems in life, I allways try to think of an IOT solution that would solve the problem and maybe even harvest data for big data purposes, arduino and raspberry are my favorite tools.',
-
-'tile4Title' => 'Network management',
-'tile4Text' => 'After graduating in 2016 for my network management degree I decided that I wanted to become a complete technical person. This does not mean that I left this working field all toghether, I am still ambitious to setup new networks, IP cameras and network attached storages when I am not programming.',
-
-/*
-    Career text
-*/
-
-'aboutCareer' => 'About my career',
-'aboutCareerQuote' => 'Helping people with computer problems convinced me to be more dedicated to computers, programming and networks.',
-
-'aboutCareerProgramming' => 'Programming and general skills',
-'aboutCareerProgrammingDescription' => 'The percentage represents how comfortable I feel in programming with this topic.',
-'aboutCareerProgrammingTesting' => 'End-to-end testing with puppeteer, unit testing in general',
-'aboutCareerProgrammingCssAndPhotoshop' => 'Css and photoshop',
-'aboutCareerProgrammingNetworking' => 'Small bussiness to medium bussiness (wireless) networks',
-'aboutCareerProgrammingEnglish' => 'English language level:',
-'aboutCareerProgrammingGerman' => 'German language level:',
-
-
-
-/*
-    Card text
-*/
-'cardName' => 'Marijn Degen',
-'cardTitle1' => 'Full stack web developer',
-'cardTitle2' => 'App developer',
-'cardTitle3' => 'Network manager',
-'cardTitle4' => 'Driving licences: AM-B-BE-T',
-
-/*
-    Actual CV text
-*/
-'carreerSoFar' => 'My career so far',
-'carreerSoFarQuote' => 'My educations and my internships.',
-
-'county' => 'County',
-'date' => 'Date',
-'tasks' => 'Tasks',
-'with' => 'with',
 
 /*
     schools
@@ -101,10 +46,10 @@ return [
 /*
     Internships
 */
-
-/*
-
-*/
+'internShipItem5' => 'Savvii',
+'internShipItem5Company' => 'The Netherlands',
+'internShipItem5Date' => '07/2020 - 2/2021',
+'internShipItem5Tasks' => 'Giving customers advice, monitoring server statusses, writing webserver configurations and solving general hosting problems.',
 
 'internShipItem4' => 'Vathos Robotics',
 'internShipItem4Company' => 'Germany',
@@ -114,7 +59,7 @@ return [
 'internShipItem3' => 'E-Commerce park',
 'internShipItem3Company' => 'Curaçao',
 'internShipItem3Date' => '2/2016 - 7/2016',
-'internShipItem3Tasks' => 'Receiving cliënt servers, unpacking client servers, racking the servers in the trays and installing the requested OS on the server so the client can work on them.',
+'internShipItem3Tasks' => 'Receiving client servers, unpacking client servers, racking the servers in the trays and installing the requested OS on the server so the client can work on them.',
 
 'internShipItem2' => 'Precision makers',
 'internShipItem2Company' => 'The Netherlands',
@@ -126,6 +71,64 @@ return [
 'internShipItem1Date' => '8/2014 - 2/2015',
 'internShipItem1Tasks' => 'Help teachers and students with PC problems and connectivity problems, putting new images on computers and laptops through the network, fixing printer drivers.',
 
+'hideAllEmployers' => 'Hide employers',
+'showAllEmployers' => 'Show all employers', 
+
+/*
+    Career text
+*/
+'aboutCareer' => 'About my career',
+'aboutCareerQuote' => 'Helping people with computer problems convinced me to be more dedicated to computers, programming and networks.',
+
+'aboutCareerProgramming' => 'Programming and general skills',
+'aboutCareerProgrammingDescription' => 'The percentage represents how comfortable I feel in programming with this topic.',
+'aboutCareerProgrammingTesting' => 'End-to-end testing with puppeteer, unit testing in general',
+'aboutCareerProgrammingCssAndPhotoshop' => 'Css and photoshop',
+'aboutCareerProgrammingNetworking' => 'Small bussiness to medium bussiness (wireless) networks',
+'aboutCareerProgrammingEnglish' => 'English language level:',
+'aboutCareerProgrammingGerman' => 'German language level:',
+
+/*
+    Card text
+*/
+'cardName' => 'Marijn Degen',
+'cardTitle1' => 'Full stack web developer',
+'cardTitle2' => 'App developer',
+'cardTitle3' => 'Network manager',
+'cardTitle4' => 'Driving licences: AM-B-BE-T',
+
+/*
+    Skills and projects
+*/
+'skillAndProject' => 'Have a Look at my skills and projects',
+'skillAndProjectQuote' => 'Programming and network management has been my passion for the past',
+'skillAndProjectQuoteP2' => 'years!',
+'tile1Title' => 'Full stack web programming',
+'tile1Text' => 'Writing new websites and tools with the newest coolest javascript technology has become a hobby of mine, aside from the career aspect. Especially react & end-to-end testing really fascinates me, writing a rest API in a new programming language or framework is allways a fun thing to learn.',
+
+'tile2Title' => 'Blockchain projects',
+'tile2Text' => 'In 2018 I had the honour to make a voting project based on blockchain, we as a project group choose ethereum, at that time I took responsibility for the communication between the blockchain smart contracts and the java backend.',
+
+'tile3Title' => 'Embedded solutions and IOT',
+'tile3Text' => 'When I face practical problems in life, I allways try to think of an IOT solution that would solve the problem and maybe even harvest data for big data purposes, arduino and raspberry are my favorite tools.',
+
+'tile4Title' => 'Network management',
+'tile4Text' => 'After graduating in 2016 for my network management degree I decided that I wanted to become a complete technical person. This does not mean that I left this working field all toghether, I am still ambitious to setup new networks, IP cameras and network attached storages when I am not programming.',
+
+/*
+    Actual CV text
+*/
+'carreerSoFar' => 'My career so far',
+'carreerSoFarQuote' => 'My educations and my internships.',
+
+'county' => 'County',
+'date' => 'Date',
+'tasks' => 'Tasks',
+'with' => 'with',
+
+/*
+    Copyright
+*/
 'copyright1' => 'All rights reserved | With',
 'copyright2' => 'thank you kindly',
 'copyright3' => 'Colorlib',
