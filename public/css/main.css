@@ -2662,3 +2662,12 @@ h6 {
 .italic-quote{
   font-style: italic;
 }
+
+#skills, #qualification-area{
+  margin-top: 5vh;
+}
+
+#center-employee-button {
+  width: 100%; 
+  text-align:center;
+}

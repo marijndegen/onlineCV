@@ -16,7 +16,7 @@
 	<!-- meta character set -->
 	<meta charset="UTF-8">
 	<!-- Site Title -->
-	<title>Marijn Degen -- Resume</title>
+	<title>Marijn Degen -- {{ trans('index.siteTitle') }}</title>
 
 	<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,400,300,500,600,700" rel="stylesheet">
 	<!--
@@ -67,69 +67,78 @@
 		</div>
 	</section>
 	<!-- End banner Area -->
-
-	<!-- Start skill Area -->
-	<section class="service-area section-gap" id="skills">
+  
+  	<!-- Start qualification Area -->
+	<section class="qualification-area pb-80" id="qualification-area">
 		<div class="container">
 			<div class="row d-flex justify-content-center">
-				<div class="menu-content pb-70 col-lg-8">
+				<div class="menu-content pb-20 col-lg-8">
 					<div class="title text-center">
-						<h1 class="mb-10">{{ trans('index.skillAndProject') }}</h1>
-						<p class="italic-quote">{{ trans('index.skillAndProjectQuote') }}
-							<script>document.write(new Date().getFullYear() - 2014);</script> {{ trans('index.skillAndProjectQuoteP2') }}!</p>
+						<h1 class="mb-10">{{ trans('index.carreerSoFar') }}</h1>
+						<p>{{ trans('index.carreerSoFarQuote') }}</p>
 					</div>
 				</div>
 			</div>
-			<div class="row">
-				<div class="single-skill col-lg-6 col-md-6 mb-30">
-					<div class="icon">
-						<img src="/img/s1.png" alt="">
-					</div>
-					<div class="dec">
-						<h4 class="mt-30"><a href="#">{{ trans('index.tile1Title') }}</a></h4>
-						<p class="mt-20">
-            {{ trans('index.tile1Text') }}
+			<div class="row d-flex justify-content-center">
+				<div class="col-lg-6 col-md-6 qty-left">
+					<div class="single-qly">
+						<h3 class="text-uppercase">{{ trans('index.schoolItem1') }}</h3>
+						<p>{{ trans('index.schoolItem1Date') }}</p>
+						<h4 class="pt-20 pb-20">{{ trans('index.schoolItem1Title') }}</h4>
+						<p>
+            {{ trans('index.schoolItem1Desciption') }}
 						</p>
 					</div>
-				</div>
-				<div class="single-skill col-lg-6 col-md-6 mb-30">
-					<div class="icon">
-						<img src="/img/s2.png" alt="">
-					</div>
-					<div class="dec">
-						<h4 class="mt-30"><a href="#">{{ trans('index.tile2Title') }}</a></h4>
-						<p class="mt-20">
-            {{ trans('index.tile2Text') }}
+					<div class="btm-border d-block mx-auto"></div>
+					<div class="single-qly">
+						<h3 class="text-uppercase">{{ trans('index.schoolItem2') }}</h3>
+						<p>{{ trans('index.schoolItem2Date') }}</p>
+						<h4 class="pt-20 pb-20">{{ trans('index.schoolItem2Title') }}</h4>
+						<p>
+            {{ trans('index.schoolItem2Desciption') }}
+							<ol>
+								<li>{{ trans('index.schoolItem2OL1') }}</li>
+								<li>{{ trans('index.schoolItem2OL2') }}</li>
+								<li>{{ trans('index.schoolItem2OL3') }}</li>
+							</ol>
 						</p>
 					</div>
-				</div>
-				<div class="single-skill col-lg-6 col-md-6">
-					<div class="icon">
-						<img src="/img/s3.png" alt="">
-					</div>
-					<div class="dec">
-						<h4 class="mt-30"><a href="#">{{ trans('index.tile3Title') }}</a></h4>
-						<p class="mt-20">
-            {{ trans('index.tile3Text') }}
-						</p>
-					</div>
-				</div>
-				<div class="single-skill col-lg-6 col-md-6">
-					<div class="icon">
-						<img src="/img/s4.png" alt="">
-					</div>
-					<div class="dec">
-						<h4 class="mt-30"><a href="#">{{ trans('index.tile4Title') }}</a></h4>
-						<p class="mt-20">
-            {{ trans('index.tile4Text') }}
-						</p>
-					</div>
-				</div>
-				<!--TODO programmero and refference to other git repositories-->
+        </div>
+        
+
+
+				<div class="col-lg-6 col-md-6 qty-right">
+
+          <?php
+            $itemsToShow = 3;
+          ?>
+          @for($i = 5; $i > 0; $i--, $itemsToShow--)
+
+          @if($itemsToShow == 0)
+          <div class="collapse" id="collapseEmployees">
+          @endif
+
+					<div class="single-qly">
+						<h4 class="pb-20">{{ trans("index.internShipItem{$i}") }}</h4>
+						<p><b>{{ trans('index.county') }}</b>: {{ trans("index.internShipItem{$i}Company") }}</p>
+						<p><b>{{ trans('index.date') }}</b>: {{ trans("index.internShipItem{$i}Date") }}</p>
+						<p><b>{{ trans('index.tasks') }}</b>: {{ trans("index.internShipItem{$i}Tasks") }}</p>
+          </div>
+          @endfor
+
+          {{--this is the div for the @if statement--}}
+          </div>
+          <div id="center-employee-button">
+            <button style="background-color: #007bff;" id="buttonWithText" class="btn btn-primary" onclick="switchName()" type="button" data-toggle="collapse" data-target="#collapseEmployees" aria-expanded="false" aria-controls="collapseEmployees">
+            {{ trans('index.showAllEmployers') }}
+            </button>
+          </div>
+        
+        </div>
 			</div>
 		</div>
 	</section>
-	<!-- End skill Area -->
+	<!-- End qualification Area -->
 
 	<!-- Start about Area -->
 	<section class="about-area section-gap" id="about">
@@ -249,81 +258,70 @@
 			</div>
 		</div>
 	</section>
-	<!-- End about Area -->
-
-	<!-- Start qualification Area -->
-	<section class="qualification-area pt-100 pb-80">
+  <!-- End about Area -->
+  
+  	<!-- Start skill Area -->
+	<section class="service-area section-gap" id="skills">
 		<div class="container">
 			<div class="row d-flex justify-content-center">
-				<div class="menu-content pb-20 col-lg-8">
+				<div class="menu-content pb-70 col-lg-8">
 					<div class="title text-center">
-						<h1 class="mb-10">{{ trans('index.carreerSoFar') }}</h1>
-						<p>{{ trans('index.carreerSoFarQuote') }}</p>
+						<h1 class="mb-10">{{ trans('index.skillAndProject') }}</h1>
+						<p class="italic-quote">{{ trans('index.skillAndProjectQuote') }}
+							<script>document.write(new Date().getFullYear() - 2014);</script> {{ trans('index.skillAndProjectQuoteP2') }}!</p>
 					</div>
 				</div>
 			</div>
-			<div class="row d-flex justify-content-center">
-				<div class="col-lg-6 col-md-6 qty-left">
-					<div class="single-qly">
-						<h3 class="text-uppercase">{{ trans('index.schoolItem1') }}</h3>
-						<p>{{ trans('index.schoolItem1Date') }}</p>
-						<h4 class="pt-20 pb-20">{{ trans('index.schoolItem1Title') }}</h4>
-						<p>
-            {{ trans('index.schoolItem1Desciption') }}
-						</p>
+			<div class="row">
+				<div class="single-skill col-lg-6 col-md-6 mb-30">
+					<div class="icon">
+						<img src="/img/s1.png" alt="">
 					</div>
-					<div class="btm-border d-block mx-auto"></div>
-					<div class="single-qly">
-						<h3 class="text-uppercase">{{ trans('index.schoolItem2') }}</h3>
-						<p>{{ trans('index.schoolItem2Date') }}</p>
-						<h4 class="pt-20 pb-20">{{ trans('index.schoolItem2Title') }}</h4>
-						<p>
-            {{ trans('index.schoolItem2Desciption') }}
-							<ol>
-								<li>{{ trans('index.schoolItem2OL1') }}</li>
-								<li>{{ trans('index.schoolItem2OL2') }}</li>
-								<li>{{ trans('index.schoolItem2OL3') }}</li>
-							</ol>
+					<div class="dec">
+						<h4 class="mt-30"><a href="#">{{ trans('index.tile1Title') }}</a></h4>
+						<p class="mt-20">
+            {{ trans('index.tile1Text') }}
 						</p>
 					</div>
 				</div>
-				<div class="col-lg-6 col-md-6 qty-right">
-
-					{{--Old code here--}}
-					{{-- <div class="single-qly">
-						<h4 class="pb-20">{{ trans('index.internShipItem1') }}</h4>
-						<p><b>{{ trans('index.county') }}</b>: {{ trans('index.internShipItem1Company') }}</p>
-						<p><b>{{ trans('index.date') }}</b>: {{ trans('index.internShipItem1Date') }}</p>
-						<p><b>{{ trans('index.tasks') }}</b>: {{ trans('index.internShipItem1Tasks') }}</p>
+				<div class="single-skill col-lg-6 col-md-6 mb-30">
+					<div class="icon">
+						<img src="/img/s2.png" alt="">
 					</div>
-					<div class="btm-border d-block mx-auto"></div>
-					<div class="single-qly">
-						<h4 class="pb-20">{{ trans('index.internShipItem2') }}</h4>
-						<p><b>{{ trans('index.county') }}</b>: {{ trans('index.internShipItem2Company') }}</p>
-						<p><b>{{ trans('index.date') }}</b>: {{ trans('index.internShipItem2Date') }}</p>
-						<p><b>{{ trans('index.tasks') }}</b>: {{ trans('index.internShipItem2Tasks') }}</p>
+					<div class="dec">
+						<h4 class="mt-30"><a href="#">{{ trans('index.tile2Title') }}</a></h4>
+						<p class="mt-20">
+            {{ trans('index.tile2Text') }}
+						</p>
 					</div>
-					<div class="btm-border d-block mx-auto"></div>
-					<div class="single-qly">
-						<h4 class="pb-20">{{ trans('index.internShipItem1') }}</h4>
-						<p><b>{{ trans('index.county') }}</b>: {{ trans('index.internShipItem1Company') }}</p>
-						<p><b>{{ trans('index.date') }}</b>: {{ trans('index.internShipItem1Date') }}</p>
-						<p><b>{{ trans('index.tasks') }}</b>: {{ trans('index.internShipItem1Tasks') }}</p>
-					</div> --}}
-
-					@for($i = 4; $i > 0; $i--)
-					<div class="single-qly">
-						<h4 class="pb-20">{{ trans("index.internShipItem{$i}") }}</h4>
-						<p><b>{{ trans('index.county') }}</b>: {{ trans("index.internShipItem{$i}Company") }}</p>
-						<p><b>{{ trans('index.date') }}</b>: {{ trans("index.internShipItem{$i}Date") }}</p>
-						<p><b>{{ trans('index.tasks') }}</b>: {{ trans("index.internShipItem{$i}Tasks") }}</p>
-					</div>
-					@endfor
 				</div>
+				<div class="single-skill col-lg-6 col-md-6">
+					<div class="icon">
+						<img src="/img/s3.png" alt="">
+					</div>
+					<div class="dec">
+						<h4 class="mt-30"><a href="#">{{ trans('index.tile3Title') }}</a></h4>
+						<p class="mt-20">
+            {{ trans('index.tile3Text') }}
+						</p>
+					</div>
+				</div>
+				<div class="single-skill col-lg-6 col-md-6">
+					<div class="icon">
+						<img src="/img/s4.png" alt="">
+					</div>
+					<div class="dec">
+						<h4 class="mt-30"><a href="#">{{ trans('index.tile4Title') }}</a></h4>
+						<p class="mt-20">
+            {{ trans('index.tile4Text') }}
+						</p>
+					</div>
+				</div>
+				<!--TODO programmero and refference to other git repositories-->
 			</div>
 		</div>
 	</section>
-	<!-- End qualification Area -->
+  <!-- End skill Area -->
 
 	<!-- start footer Area -->
 	<footer class="footer-area section-gap">
@@ -351,6 +349,19 @@
 	<script src="/js/owl.carousel.min.js"></script>
 	<script src="/js/jquery.sticky.js"></script>
 
-	<script src="/js/main.js"></script>
+  <script src="/js/main.js"></script>
+  <script>
+		document.verborgen = true;
+		
+		function switchName(){
+			if(document.verborgen == true){
+				document.verborgen = false;
+				document.getElementById("buttonWithText").innerHTML = "{{ trans('index.hideAllEmployers') }}";
+			} else{
+				document.verborgen = true;
+				document.getElementById("buttonWithText").innerHTML = "{{ trans('index.showAllEmployers') }}";
+			}
+		}
+  </script>
 </body>
 </html>
