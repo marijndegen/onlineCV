@@ -140,7 +140,7 @@ return [
 'copyright1' => 'Alle rechten voorbehouden | Met',
 'copyright2' => 'bedankt',
 'copyright3' => 'Colorlib',
-'copyright4' => ' for deze coole template, Marijn Degen. KVK nummer (Nederland): 72942371',
+'copyright4' => ' voor deze coole template, Marijn Degen. KVK nummer (Nederland): 72942371',
 
 ];
 
