@@ -1,6 +1,6 @@
 <!doctype html>
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}" class="no-js">
-    <!--https://colorlib.com/wp/template/resume/-->
+<!--https://colorlib.com/wp/template/resume/-->
 
 <head>
 	<!-- Mobile Specific Meta -->
@@ -29,7 +29,7 @@
 	<link rel="stylesheet" href="/css/owl.carousel.css">
 	<link rel="stylesheet" href="/css/main.css">
 </head>
- 
+
 <body>
 	<!-- start banner Area -->
 	<section class="banner-area" id="home">
@@ -47,7 +47,7 @@
 						</span>
 					</div>
 				</div>
-				
+
 			</nav>
 		</header>
 		<!-- End Header Area -->
@@ -58,7 +58,7 @@
 				</div>
 				<div class="col-lg-6 col-md-12 banner-left">
 					<h1 class="text-white">
-					  {{ trans('index.headerHello') }} <br>
+						{{ trans('index.headerHello') }} <br>
 						<span>{{ trans('index.headerName') }}</span> <br>
 						{{ trans('index.headerIntro') }}
 					</h1>
@@ -67,8 +67,8 @@
 		</div>
 	</section>
 	<!-- End banner Area -->
-  
-  	<!-- Start qualification Area -->
+
+	<!-- Start qualification Area -->
 	<section class="qualification-area pb-80" id="qualification-area">
 		<div class="container">
 			<div class="row d-flex justify-content-center">
@@ -86,7 +86,7 @@
 						<p>{{ trans('index.schoolItem1Date') }}</p>
 						<h4 class="pt-20 pb-20">{{ trans('index.schoolItem1Title') }}</h4>
 						<p>
-            {{ trans('index.schoolItem1Desciption') }}
+							{{ trans('index.schoolItem1Desciption') }}
 						</p>
 					</div>
 					<div class="btm-border d-block mx-auto"></div>
@@ -95,46 +95,46 @@
 						<p>{{ trans('index.schoolItem2Date') }}</p>
 						<h4 class="pt-20 pb-20">{{ trans('index.schoolItem2Title') }}</h4>
 						<p>
-            {{ trans('index.schoolItem2Desciption') }}
-							<ol>
-								<li>{{ trans('index.schoolItem2OL1') }}</li>
-								<li>{{ trans('index.schoolItem2OL2') }}</li>
-								<li>{{ trans('index.schoolItem2OL3') }}</li>
-							</ol>
+							{{ trans('index.schoolItem2Desciption') }}
+						<ol>
+							<li>{{ trans('index.schoolItem2OL1') }}</li>
+							<li>{{ trans('index.schoolItem2OL2') }}</li>
+							<li>{{ trans('index.schoolItem2OL3') }}</li>
+						</ol>
 						</p>
 					</div>
-        </div>
-        
+				</div>
+
 
 
 				<div class="col-lg-6 col-md-6 qty-right">
 
-          <?php
-            $itemsToShow = 3;
-          ?>
-          @for($i = 5; $i > 0; $i--, $itemsToShow--)
+					<?php
+					$itemsToShow = 3;
+					?>
+					@for($i = 6 ; $i > 0; $i--, $itemsToShow--)
 
-          @if($itemsToShow == 0)
-          <div class="collapse" id="collapseEmployees">
-          @endif
+					@if($itemsToShow == 0)
+					<div class="collapse" id="collapseEmployees">
+						@endif
 
-					<div class="single-qly">
-						<h4 class="pb-20">{{ trans("index.internShipItem{$i}") }}</h4>
-						<p><b>{{ trans('index.county') }}</b>: {{ trans("index.internShipItem{$i}Company") }}</p>
-						<p><b>{{ trans('index.date') }}</b>: {{ trans("index.internShipItem{$i}Date") }}</p>
-						<p><b>{{ trans('index.tasks') }}</b>: {{ trans("index.internShipItem{$i}Tasks") }}</p>
-          </div>
-          @endfor
+						<div class="single-qly">
+							<h4 class="pb-20">{{ trans("index.internShipItem{$i}") }}</h4>
+							<p><b>{{ trans('index.county') }}</b>: {{ trans("index.internShipItem{$i}Company") }}</p>
+							<p><b>{{ trans('index.date') }}</b>: {{ trans("index.internShipItem{$i}Date") }}</p>
+							<p><b>{{ trans('index.tasks') }}</b>: {{ trans("index.internShipItem{$i}Tasks") }}</p>
+						</div>
+						@endfor
 
-          {{--this is the div for the @if statement--}}
-          </div>
-          <div id="center-employee-button">
-            <button style="background-color: #007bff;" id="buttonWithText" class="btn btn-primary" onclick="switchName()" type="button" data-toggle="collapse" data-target="#collapseEmployees" aria-expanded="false" aria-controls="collapseEmployees">
-            {{ trans('index.showAllEmployers') }}
-            </button>
-          </div>
-        
-        </div>
+						{{--this is the div for the @if statement--}}
+					</div>
+					<div id="center-employee-button">
+						<button style="background-color: #007bff;" id="buttonWithText" class="btn btn-primary" onclick="switchName()" type="button" data-toggle="collapse" data-target="#collapseEmployees" aria-expanded="false" aria-controls="collapseEmployees">
+							{{ trans('index.showAllEmployers') }}
+						</button>
+					</div>
+
+				</div>
 			</div>
 		</div>
 	</section>
@@ -182,7 +182,7 @@
 							<div class="skillbar-bar" style="width: 65%;"></div>
 						</div>
 					</div>
-					
+
 					<div class="skillbar" data-percent="65%">
 						<div class="skill-bar-percent">C# 65%</div>
 						<div class="skillwrap">
@@ -265,9 +265,9 @@
 			</div>
 		</div>
 	</section>
-  <!-- End about Area -->
-  
-  	<!-- Start skill Area -->
+	<!-- End about Area -->
+
+	<!-- Start skill Area -->
 	<section class="service-area section-gap" id="skills">
 		<div class="container">
 			<div class="row d-flex justify-content-center">
@@ -275,7 +275,10 @@
 					<div class="title text-center">
 						<h1 class="mb-10">{{ trans('index.skillAndProject') }}</h1>
 						<p class="italic-quote">{{ trans('index.skillAndProjectQuote') }}
-							<script>document.write(new Date().getFullYear() - 2014);</script> {{ trans('index.skillAndProjectQuoteP2') }}!</p>
+							<script>
+								document.write(new Date().getFullYear() - 2014);
+							</script> {{ trans('index.skillAndProjectQuoteP2') }}!
+						</p>
 					</div>
 				</div>
 			</div>
@@ -287,7 +290,7 @@
 					<div class="dec">
 						<h4 class="mt-30"><a href="#">{{ trans('index.tile1Title') }}</a></h4>
 						<p class="mt-20">
-            {{ trans('index.tile1Text') }}
+							{{ trans('index.tile1Text') }}
 						</p>
 					</div>
 				</div>
@@ -298,7 +301,7 @@
 					<div class="dec">
 						<h4 class="mt-30"><a href="#">{{ trans('index.tile2Title') }}</a></h4>
 						<p class="mt-20">
-            {{ trans('index.tile2Text') }}
+							{{ trans('index.tile2Text') }}
 						</p>
 					</div>
 				</div>
@@ -309,7 +312,7 @@
 					<div class="dec">
 						<h4 class="mt-30"><a href="#">{{ trans('index.tile3Title') }}</a></h4>
 						<p class="mt-20">
-            {{ trans('index.tile3Text') }}
+							{{ trans('index.tile3Text') }}
 						</p>
 					</div>
 				</div>
@@ -320,7 +323,7 @@
 					<div class="dec">
 						<h4 class="mt-30"><a href="#">{{ trans('index.tile4Title') }}</a></h4>
 						<p class="mt-20">
-            {{ trans('index.tile4Text') }}
+							{{ trans('index.tile4Text') }}
 						</p>
 					</div>
 				</div>
@@ -328,7 +331,7 @@
 			</div>
 		</div>
 	</section>
-  <!-- End skill Area -->
+	<!-- End skill Area -->
 
 	<!-- start footer Area -->
 	<footer class="footer-area section-gap">
@@ -336,8 +339,10 @@
 			<div class="row">
 				<div class="col-lg-12  col-md-12 col-sm-12">
 					<p class="footer-text">Copyright &copy;
-						<script>document.write(new Date().getFullYear());</script> {{ trans('index.copyright1') }} <i class="fa fa-heart-o"
-						 aria-hidden="true"></i> {{ trans('index.copyright2') }} <a href="https://colorlib.com" target="_blank">{{ trans('index.copyright3') }}</a> {{ trans('index.copyright4') }}</p>
+						<script>
+							document.write(new Date().getFullYear());
+						</script> {{ trans('index.copyright1') }} <i class="fa fa-heart-o" aria-hidden="true"></i> {{ trans('index.copyright2') }} <a href="https://colorlib.com" target="_blank">{{ trans('index.copyright3') }}</a> {{ trans('index.copyright4') }}
+					</p>
 				</div>
 				<div class="col-lg-2 col-md-6 col-sm-6 social-widget">
 				</div>
@@ -347,8 +352,7 @@
 	<!-- End footer Area -->
 
 	<script src="/js/vendor/jquery-2.2.4.min.js"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4"
-	 crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
 	<script src="/js/vendor/bootstrap.min.js"></script>
 	<script src="/js/jquery.ajaxchimp.min.js"></script>
 	<script src="/js/jquery.magnific-popup.min.js"></script>
@@ -356,19 +360,20 @@
 	<script src="/js/owl.carousel.min.js"></script>
 	<script src="/js/jquery.sticky.js"></script>
 
-  <script src="/js/main.js"></script>
-  <script>
+	<script src="/js/main.js"></script>
+	<script>
 		document.verborgen = true;
-		
-		function switchName(){
-			if(document.verborgen == true){
+
+		function switchName() {
+			if (document.verborgen == true) {
 				document.verborgen = false;
 				document.getElementById("buttonWithText").innerHTML = "{{ trans('index.hideAllEmployers') }}";
-			} else{
+			} else {
 				document.verborgen = true;
 				document.getElementById("buttonWithText").innerHTML = "{{ trans('index.showAllEmployers') }}";
 			}
 		}
-  </script>
+	</script>
 </body>
+
 </html>
