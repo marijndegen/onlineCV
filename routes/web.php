@@ -20,3 +20,8 @@ Route::get('/{locale}', function ($locale) {
     return LanguageController::show();
 });
 
+Route::get('/PDF-generator/{locale}/{page}', function ($locale, $page) {
+    App::setLocale($locale);
+
+    return LanguageController::pdfGenerator($page);
+});
