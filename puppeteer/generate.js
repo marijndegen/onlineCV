@@ -9,7 +9,7 @@ const parts = [
     { landscape: false, format: 'a3', name: 'header' },
     { landscape: false, format: 'a3', name: 'career' },
     { landscape: false, format: 'a3', name: 'info' },
-    { landscape: false, format: 'a3', name: 'skills' },
+    { landscape: true, format: 'a3', name: 'skills' },
     { landscape: true, format: 'a5', name: 'footer' }
 ]
 
