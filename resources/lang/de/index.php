@@ -31,7 +31,7 @@ return [
     schools
 */
     'schoolItem1' => 'HBO - HAN UNIVERSITY OF APPLIED SIENCE',
-    'schoolItem1Date' => '9/2016 bis zur Gegenwart',
+    'schoolItem1Date' => '9/2016 bis 6/2022',
     'schoolItem1Title' => 'Webentwicklung',
     'schoolItem1Desciption' => 'Was ich an meiner derzeitigen Ausbildung wirklich mag, ist das Erlernen neuer Technologien, aber auch die Prinzipien der Anwendungsentwicklung im Team (mit SCRUM). Ich habe mich für die Webentwicklung entschieden, weil es meiner Meinung nach wichtig ist, dass Programme plattformübergreifend sind.',
 
@@ -48,7 +48,7 @@ return [
 */
     'internShipItem6' => 'Zoolt / FixPart',
     'internShipItem6Company' => 'Die Niederlande',
-    'internShipItem6Date' => '08/2021 - 2/2022',
+    'internShipItem6Date' => '08/2021 - 7/2022',
     'internShipItem6Tasks' => 'Eines neuen Videostream-Dienstes programmieren, der Dienst wird zwischen einem Kunden mit einem defekten Gerät und einem Mechaniker verwendet. Der Zweck der Dienstleistung ist die Reparatur des Gerätes. Neben Videoanrufen ist es auch möglich, visuelle Anweisungen zu senden.',
 
     'internShipItem5' => 'Savvii',
@@ -124,7 +124,7 @@ return [
     Actual CV text
 */
     'carreerSoFar' => 'Meine bisherige Karriere',
-    'carreerSoFarQuote' => 'Meine Ausbildung und meine Praktika.',
+    'carreerSoFarQuote' => 'Meine Ausbildung und Berufserfahrung.',
 
     'county' => 'Land',
     'date' => 'Datum',

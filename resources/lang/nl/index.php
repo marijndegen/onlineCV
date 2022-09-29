@@ -32,7 +32,7 @@ return [
     schools
 */
     'schoolItem1' => 'HBO - HAN UNIVERSITY OF APPLIED SIENCE',
-    'schoolItem1Date' => 'September 2016 tot heden',
+    'schoolItem1Date' => 'September 2016 tot juni 2022',
     'schoolItem1Title' => 'Web development',
     'schoolItem1Desciption' => 'Wat ik erg leuk vind aan mijn huidige opleiding is het leren van nieuwe technologieën, maar ook de principes van applicaties ontwikkelen in teamverband (met SCRUM). Ik koos webdevelopment in plaats van software development omdat ik het belangrijk vind dat applicaties cross platform beschikbaar zijn, wat is meer cross platform dan het web?',
 
@@ -50,7 +50,7 @@ return [
     */
     'internShipItem6' => 'Zoolt / FixPart',
     'internShipItem6Company' => 'Nederland',
-    'internShipItem6Date' => '08/2021 - 2/2022',
+    'internShipItem6Date' => '08/2021 - 7/2022',
     'internShipItem6Tasks' => 'Onderzoeken, implementeren, testen van een nieuwe videostreamservice, de service wordt gebruikt tussen een klant met een kappot huishoudelijk apparaat en een monteur. Naast beeldbellen is het ook mogelijk om visuele instructies over te brengen.',
 
     'internShipItem5' => 'Savvii',
@@ -132,7 +132,7 @@ return [
     Actual CV text
 */
     'carreerSoFar' => 'Mijn carrière tot nu toe.',
-    'carreerSoFarQuote' => 'Mijn opleidingen en stages.',
+    'carreerSoFarQuote' => 'Mijn opleidingen en werkervaring.',
 
     'county' => 'Land',
     'date' => 'Datum',

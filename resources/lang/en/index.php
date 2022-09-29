@@ -31,7 +31,7 @@ return [
     schools
 */
     'schoolItem1' => 'HBO - HAN UNIVERSITY OF APPLIED SIENCE',
-    'schoolItem1Date' => 'September 2016 to Present',
+    'schoolItem1Date' => 'September 2016 to June 2022',
     'schoolItem1Title' => 'Web development',
     'schoolItem1Desciption' => 'What I really like on my current education is learning new technologies, but also the principles of developing applications in a team (with SCRUM). I choose web development instead of software development because I think making applications cross platform is really cool in general and what is more cross platform than the web?',
 
@@ -48,7 +48,7 @@ return [
 */
     'internShipItem6' => 'Zoolt / FixPart',
     'internShipItem6Company' => 'The Netherlands',
-    'internShipItem6Date' => '08/2021 - 2/2022',
+    'internShipItem6Date' => '08/2021 - 7/2022',
     'internShipItem6Tasks' => 'Researching, implementing and testing a new video stream service, the service will be used between a customer with a defect applience and a mechanic. The endgoal of the service is to repair the defect applience. Aside from videocalling it is also possible to send visual instructions.',
 
     'internShipItem5' => 'Savvii',
@@ -125,7 +125,7 @@ return [
     Actual CV text
 */
     'carreerSoFar' => 'My career so far',
-    'carreerSoFarQuote' => 'My educations and my internships.',
+    'carreerSoFarQuote' => 'My educations and my work experience.',
 
     'county' => 'County',
     'date' => 'Date',
