@@ -44,8 +44,9 @@
                 ?>
                 @for($i = 6 ; $i > 0; $i--, $itemsToShow--)
 
-                @if($itemsToShow == 0)
+                @if($itemsToShow == 0 && !$pdfView)
                 <div class="collapse" id="collapseEmployees">
+                    <!-- This is to mark the end section for the employees, not to overlow the pag -->
                     @endif
 
                     <div class="single-qly">
@@ -57,13 +58,16 @@
                     @endfor
 
                     {{--this is the div for the @if statement--}}
-                </div>
+
+                    @if(!$pdfView)
+                </div> <!-- this is the ending div for the collapseEmployees -->
+
                 <div id="center-employee-button">
-                    <button style="background-color: #007bff;" id="buttonWithText" class="btn btn-primary" onclick="switchName()" type="button" data-toggle="collapse" data-target="#collapseEmployees" aria-expanded="false" aria-controls="collapseEmployees">
+                    <button style="background-color: #007bff;" id="buttonWithText" class="btn btn-primary" onclick="switchName()" type="button" data-toggle="collapse" data-target="#collapseEmployees" aria-expanded="true" aria-controls="collapseEmployees">
                         {{ trans('index.showAllEmployers') }}
                     </button>
                 </div>
-
+                @endif
             </div>
         </div>
     </div>

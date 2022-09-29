@@ -1,5 +1,5 @@
 @extends('layout')
 
 @section('content')
-@include($page)
+@include($page, ['pdfView' => true])
 @endsection
