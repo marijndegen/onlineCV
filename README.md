@@ -1,12 +1,9 @@
 # onlineCV
 
-### TODO list
+### Ideeën lijst
 
-- Verwijzing naar github pagina toevoegen
 - Video maken met Leon
 - Devops en deep learning cnn's toevoegen als skill
-
-
 
 ### installatie
 
