@@ -88,7 +88,7 @@ return [
     'aboutCareerProgramming' => 'Programming and general skills',
     'aboutCareerProgrammingDescription' => 'The percentage represents how comfortable I feel in programming with this topic.',
     'aboutCareerProgrammingTesting' => 'End-to-end testing with puppeteer, unit testing in general',
-    'aboutCareerProgrammingCssAndPhotoshop' => 'Css and photoshop',
+    'aboutCareerProgrammingCss' => 'Css and photoshop',
     'aboutCareerProgrammingNetworking' => 'Small bussiness to medium bussiness (wireless) networks',
     'aboutCareerProgrammingEnglish' => 'English language level:',
     'aboutCareerProgrammingGerman' => 'German language level:',

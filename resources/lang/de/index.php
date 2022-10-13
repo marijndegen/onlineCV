@@ -88,7 +88,7 @@ return [
     'aboutCareerProgramming' => 'Programmieren und allgemeine Fähigkeiten',
     'aboutCareerProgrammingDescription' => 'Der Prozentanteil spiegelt meine Kompetenz in den jeweiligen Bereichen wider',
     'aboutCareerProgrammingTesting' => 'End-to-end testing mit Puppeteer, Unit testing im Allgemeinen',
-    'aboutCareerProgrammingCssAndPhotoshop' => 'Css und photoshop',
+    'aboutCareerProgrammingCss' => 'Css und photoshop',
     'aboutCareerProgrammingNetworking' => 'Kleinunternehmen bis mittlere Unternehmen (drahtlose) Netzwerke',
     'aboutCareerProgrammingEnglish' => 'Englische Sprachniveau:',
     'aboutCareerProgrammingGerman' => 'Deutsche Sprachniveau:',

@@ -93,7 +93,7 @@ return [
     'aboutCareerProgramming' => 'Programmeer en algemene vaardigheden.',
     'aboutCareerProgrammingDescription' => 'Het percentage geeft aan hoe comfortabel ik mijzelf voel in dit onderwerp.',
     'aboutCareerProgrammingTesting' => 'End-to-end testen met puppeteer, unit testing in het algemeen',
-    'aboutCareerProgrammingCssAndPhotoshop' => 'Css en photoshop',
+    'aboutCareerProgrammingCss' => 'Css en photoshop',
     'aboutCareerProgrammingNetworking' => 'MKB (draadloze) netwerken',
     'aboutCareerProgrammingEnglish' => 'Engelse taal niveau:',
     'aboutCareerProgrammingGerman' => 'Duitse taal niveau:',
