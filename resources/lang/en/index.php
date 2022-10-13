@@ -138,6 +138,7 @@ return [
     'copyright1' => 'All rights reserved | With',
     'copyright2' => 'thank you kindly',
     'copyright3' => 'Colorlib',
-    'copyright4' => ' for this cool template, Marijn Degen. KVK Netherlands Chamber of Commerce number: 72942371',
+    'copyright4' => ' for this cool template. ',
+    'copyright5' => ' KVK Netherlands Chamber of Commerce number: 72942371',
 
 ];

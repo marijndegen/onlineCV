@@ -1,9 +1,14 @@
 # onlineCV
 
-### Ideeën lijst
+### TODO / Ideeën lijst
 
-- Video maken met Leon
+- css en photoshop weghalen, alleen css -- checken
+- bij ieder bedrijf zeggen welke programmeer / technologie er gewerkt is.
+- github toevoegen
+- python toevoegen
 - Devops en deep learning cnn's toevoegen als skill
+- Video maken met Leon
+- Github (private repos) opruimen
 
 ### installatie
 
@@ -33,3 +38,32 @@ To merge the PDF files, the npm package easy-pdf-merge is used. It requires at l
 > npm run php
 2. Run the puppeteer script
 > node puppeteer/generate.js
+
+
+# Delete me (github)
+## java
+TheHeist - java processing
+deaberoepsproduct - java, tomcat, java enterprice
+Blockchainproject2018allRepos - java, java enterprice, angular, ethereum
+
+## c#
+MultiChat - c# client server mvvm wpf material design visual studio
+wapp-inside-airbnb - c# client server mapbox +
+
+## c++
+toyotastarletautostart - c++ arduino esp8622 dart flutter
+arduino-speedometer - c++ arduino
+
+## javascript / nodejs
+onlineCV - php laravel nodejs puppeteer
+javascript-snake - html css javascript +
+Laravel-react-crud-rdw - php laravel javascript react +
+programmero - javascript
+
+## dart
+toyotastarletautostart - c++ arduino esp8622 dart flutter
+
+## php
+onlineCV - php laravel nodejs puppeteer
+laravel-Keypair-admin - rsa-encrytion laravel +
+Laravel-react-crud-rdw - php laravel javascript react +
