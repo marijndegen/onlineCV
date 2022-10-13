@@ -7,6 +7,7 @@
                     <script>
                         document.write(new Date().getFullYear());
                     </script> {{ trans('index.copyright1') }} <i class="fa fa-heart-o" aria-hidden="true"></i> {{ trans('index.copyright2') }} <a href="https://colorlib.com" target="_blank">{{ trans('index.copyright3') }}</a> {{ trans('index.copyright4') }}
+                    <a href="http://github.com/marijndegen">GitHub.com/MarijnDegen</a> | {{ trans('index.copyright5') }}
                 </p>
             </div>
             <div class="col-lg-2 col-md-6 col-sm-6 social-widget">

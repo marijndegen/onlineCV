@@ -137,6 +137,7 @@ return [
     'copyright1' => 'All rights reserved | Mit',
     'copyright2' => 'dankeschön an',
     'copyright3' => 'Colorlib',
-    'copyright4' => ' für diese coole Vorlage, Marijn Degen. kvk Niederlande: 72942371',
+    'copyright4' => ' für diese coole Vorlage. ',
+    'copyright5' => ' kvk Niederlande: 72942371',
 
 ];
