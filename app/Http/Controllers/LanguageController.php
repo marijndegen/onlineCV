@@ -30,13 +30,6 @@ class LanguageController extends Controller
             case "NL":
                 App::setLocale("nl");
                 break;
-
-            case "CH":
-            case "DE":
-            case "AT":
-                App::setLocale("de");
-                break;
-
             default;
                 App::setLocale("en");
                 break;
@@ -54,7 +47,7 @@ class LanguageController extends Controller
         /*
         header
         career
-        info
+        features
         skills
         footer
         */

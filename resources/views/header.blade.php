@@ -10,7 +10,6 @@
                     <span style="width:350px; margin-left:20px;">
                         <a href="/nl"><img class="img-fluid" src="/img/flag_netherlands.png" alt=""></a>
                         <a href="/en"><img class="img-fluid" src="/img/flag_england.png" alt=""></a>
-                        <a href="/de"><img class="img-fluid" src="/img/flag_germany.png" alt=""></a>
                     </span>
                 </div>
             </div>
