@@ -15,6 +15,11 @@
                         <span class="lnr lnr-car"></span>
                         <h4>{{trans('index.toyotaStarletAutoStartHeading') }}</h4>
                     </div>
+                    <span class="badge badge-primary">C++</span>
+                    <span class="badge badge-primary">Arduino</span>
+                    <span class="badge badge-primary">ESP8622</span>
+                    <span class="badge badge-primary">Dart</span>
+                    <span class="badge badge-primary">Flutter</span>
                     <p>
                         {{ trans('index.toyotaStarletAutoStart')}}
                         <br><br>
@@ -28,6 +33,10 @@
                         <span class="lnr lnr-layers"></span>
                         <h4>{{ trans('index.ethereumBlockChainProjectHeading')}}</h4>
                     </div>
+                    <span class="badge badge-primary">Java</span>
+                    <span class="badge badge-primary">Java EE</span>
+                    <span class="badge badge-primary">Angular</span>
+                    <span class="badge badge-primary">Ethereum</span>
                     <p>
                         {{ trans('index.ethereumBlockChainProject')}}
                         <br><br>
@@ -41,6 +50,8 @@
                         <span class="lnr lnr-paperclip"></span>
                         <h4>{{ trans('index.onlineCVHeading')}}</h4>
                     </div>
+                    <span class="badge badge-primary">PHP</span>
+                    <span class="badge badge-primary">Laravel</span>
                     <p>
                         {{ trans('index.onlineCV')}}
                         <br><br>
@@ -54,6 +65,9 @@
                         <span class="lnr lnr-lock"></span>
                         <h4>{{ trans('index.rsaKeyPairEncrypterHeading')}}</h4>
                     </div>
+                    <span class="badge badge-primary">PHP</span>
+                    <span class="badge badge-primary">Laravel</span>
+                    <span class="badge badge-primary">RSA encryption</span>
                     <p>
                         {{ trans('index.rsaKeyPairEncrypter')}}
                         <br><br>
@@ -67,6 +81,11 @@
                         <span class="lnr lnr-keyboard"></span>
                         <h4>{{ trans('index.multiChatAppHeading')}}</h4>
                     </div>
+                    <span class="badge badge-primary">C#</span>
+                    <span class="badge badge-primary">MVVM</span>
+                    <span class="badge badge-primary">WPF</span>
+                    <span class="badge badge-primary">Material Design</span>
+                    <span class="badge badge-primary">Visual Studio</span>
                     <p>
                         {{ trans('index.multiChatApp')}}
                         <br><br>
@@ -80,6 +99,8 @@
                         <span class="lnr lnr-clock"></span>
                         <h4>{{ trans('index.javascriptSnakeHeading') }}</h4>
                     </div>
+                    <span class="badge badge-primary">JavaScript</span>
+                    <span class="badge badge-primary">2 hour challange</span>
                     <p>
                         {{ trans('index.javascriptSnake') }} <a href="https://snake.marijndegen.nl">snake.marijndegen.nl</a>
                         <br><br>

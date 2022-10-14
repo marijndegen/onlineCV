@@ -82,7 +82,7 @@ return [
      * Features
      */
     'toyotaStarletAutoStartHeading' => 'Starting car through app',
-    'toyotaStarletAutoStart' => 'During the start of corona I decided to take some time off studying, but not sleeping, I created a Flutter Android App that started my 89\' Toyota Starlet car.',
+    'toyotaStarletAutoStart' => 'During the start of corona I decided to take some time off studying, during this break I decided I wanted to be able to start my car with my phone, so I created a Flutter Android App that started my 89\' Toyota Starlet car.',
 
     'ethereumBlockChainProjectHeading' => 'Blockchain Ethereum Java',
     'ethereumBlockChainProject' => 'In 2018 I had the honour to make a voting project based on blockchain during a school project, I implemented the communication between the blockchain smart contracts and the java backend.',
@@ -90,13 +90,13 @@ return [
     'onlineCVHeading' => 'This resume',
     'onlineCV' => 'The resume you are watching right now is a laravel website. Many people asked for a PDF version of it, so I hacked a javascript puppeteer script that generates it for them.',
 
-    'rsaKeyPairEncrypterHeading' => 'RSA security webapp',
+    'rsaKeyPairEncrypterHeading' => 'RSA security WebApp',
     'rsaKeyPairEncrypter' => 'This laravel application enables you to encrypt your messages using RSA. This was a solo project just for gigs.',
 
-    'multiChatAppHeading' => 'Multichat WPF app',
+    'multiChatAppHeading' => 'Multichat WPF application',
     'multiChatApp' => 'This native app proves client server communication and can be compared to WhatsApp. The cool thing about this app is that it shows MVVM, C#, WPF and material design.',
 
-    'javascriptSnakeHeading' => 'Oldskool JavaScript Snake',
+    'javascriptSnakeHeading' => 'Snake browser game',
     'javascriptSnake' => 'Play snake in the browser desktop! The best part of this game took just two hours to develop and consists of about 250 lines of javascript code. Play now: ',
 
     'viewOnGitHub' => 'View on GitHub',
