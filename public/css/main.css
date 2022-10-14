@@ -4,7 +4,7 @@
 /* Mobile Layout: 320px */
 /* Wide Mobile Layout: 480px */
 /* =================================== */
-/*  Basic Style 
+/*  Basic Style
 /* =================================== */
 ::-moz-selection {
   /* Code for Firefox */
@@ -1961,7 +1961,7 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
-.p1-gradient-bg, .primary-btn, .primary-btn2:hover, .default-header, .dropdown-menu, .banner-area, .myself-wrap .desc .talk-btn, .skillbar-bar, .single-feature:hover, .single-footer-widget .click-btn, .generic-banner {
+.p1-gradient-bg, .primary-btn, .primary-btn2:hover, .default-header, .dropdown-menu, .banner-area, .myself-wrap .desc .talk-btn, .skillbar-bar, /*.single-feature:hover,*/ .single-footer-widget .click-btn, .generic-banner {
   background-image: -moz-linear-gradient(0deg, #62bdfc 0%, #8490ff 100%);
   background-image: -webkit-linear-gradient(0deg, #62bdfc 0%, #8490ff 100%);
   background-image: -ms-linear-gradient(0deg, #62bdfc 0%, #8490ff 100%);
@@ -2376,17 +2376,17 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .single-feature a {
-  color: #000;
+  color: #8490ff;
 }
 
 .single-feature:hover {
-  cursor: pointer;
-  color: #fff;
+  /* cursor: pointer; */
+  /* color: #fff; */
 }
 
-.single-feature:hover a, .single-feature:hover .title .lnr {
+/* .single-feature:hover a, .single-feature:hover .title .lnr {
   color: #fff;
-}
+} */
 
 .single-feature .title .lnr {
   color: #000;
@@ -2668,6 +2668,6 @@ h6 {
 }
 
 #center-employee-button {
-  width: 100%; 
+  width: 100%;
   text-align:center;
 }

@@ -1,19 +1,18 @@
 <?php
 
 return [
+    /*
+    |--------------------------------------------------------------------------
+    | Authentication Language Lines
+    |--------------------------------------------------------------------------
+    |
+    |The following lines of text are used on my personal English CV page.
+    |
+    */
 
     /*
-|--------------------------------------------------------------------------
-| Authentication Language Lines
-|--------------------------------------------------------------------------
-|
-|The following lines of text are used on my personal English CV page.
-|
-*/
-
-    /*
-    Header
-*/
+        Header
+    */
     'siteTitle' => 'Curriculum Vitae',
 
     /*WHEN CHANGING THESE, DON'T FORGET TO EDIT THE LINKS (yes, two links) IN THE .BLADE FILE!*/
@@ -27,15 +26,13 @@ return [
     'headerName' => 'MARIJN DEGEN',
     'headerIntro' => 'Geavanceerde web programmeur en netwerk manager',
 
-
     /*
-    schools
-*/
+        schools
+    */
     'schoolItem1' => 'HBO - HAN UNIVERSITY OF APPLIED SIENCE',
     'schoolItem1Date' => 'September 2016 tot juni 2022',
     'schoolItem1Title' => 'Web development',
     'schoolItem1Desciption' => 'Wat ik erg leuk vind aan mijn huidige opleiding is het leren van nieuwe technologieën, maar ook de principes van applicaties ontwikkelen in teamverband (met SCRUM). Ik koos webdevelopment in plaats van software development omdat ik het belangrijk vind dat applicaties cross platform beschikbaar zijn, wat is meer cross platform dan het web?',
-
 
     'schoolItem2' => 'MBO - ROC NIJMEGEN THE SCHOOL OF LIFE',
     'schoolItem2Date' => 'September 2013 tot july 2016',
@@ -81,27 +78,39 @@ return [
     'hideAllEmployers' => 'Verberg werkgevers',
     'showAllEmployers' => 'Alle werkgevers weergeven',
 
-    /*
-    Career text
-*/
+    /**
+     * Features
+     */
+    'toyotaStarletAutoStart' => 'During the start of corona I decided to take some time off studying, but not sleeping, I created a Flutter Android App that started my 89\' Toyota Starlet car.',
 
+    'ethereumBlockChainProject' => 'In 2018 I had the honour to make a voting project based on blockchain during a school project, I implemented the communication between the blockchain smart contracts and the java backend.',
+
+    'onlineCV' => 'The resume you are watching right now is a laravel website. Many people asked for a PDF version of it, So I hacked a javascript puppeteerscript that generates it for them.',
+
+    'rsaKeyPairEncrypter' => 'This laravel application enables you to encrypt your messages using RSA. This was a solo project just for gigs.',
+
+    'multiChatApp' => 'For a school exercise a multichat app needed to be developed. The cool thing about this app is that it shows MVVM, C#, WPF and material design.',
+
+    'javascriptSnake' => 'Play snake in the browser desktop! The best part of this game took just two hours to develop and consists of about 250 lines of javascript code. Play now: ',
+
+    /*
+        Career text
+    */
     'aboutCareer' => 'Over mijn carrière',
     'aboutCareerQuote' => 'Mensen helpen met computerproblemen overtuigde mij om meer toegewijd te zijn aan computers, programmeren en netwerken.',
-
-
 
     'aboutCareerProgramming' => 'Programmeer en algemene vaardigheden.',
     'aboutCareerProgrammingDescription' => 'Het percentage geeft aan hoe comfortabel ik mijzelf voel in dit onderwerp.',
     'aboutCareerProgrammingTesting' => 'End-to-end testen met puppeteer, unit testing in het algemeen',
-    'aboutCareerProgrammingCss' => 'Css en photoshop',
+    'aboutCareerProgrammingCssAndPhotoshop' => 'Css en photoshop',
     'aboutCareerProgrammingNetworking' => 'MKB (draadloze) netwerken',
     'aboutCareerProgrammingEnglish' => 'Engelse taal niveau:',
     'aboutCareerProgrammingGerman' => 'Duitse taal niveau:',
 
 
     /*
-    Card text
-*/
+        Card text
+    */
     'cardName' => 'Marijn Degen',
     'cardTitle1' => 'Full stack web ontwikkelaar',
     'cardTitle2' => 'App ontwikkelaar',
@@ -111,9 +120,9 @@ return [
 
 
     /*
-    Skills and projects
-*/
-    'skillAndProject' => 'Neem een kijkje in mijn projecten en vaardigheden',
+        Skills and projects
+    */
+    'skillAndProject' => 'Neem een kijkje in mijn GitHub projecten',
     'skillAndProjectQuote' => 'Programmeren en netwerkbeheer is mijn passie sinds',
     'skillAndProjectQuoteP2' => 'jaar',
     'tile1Title' => 'Full stack web programming',
@@ -129,8 +138,8 @@ return [
     'tile4Text' => 'Nadat ik geslaagd was in 2016 voor mijn Netwerkbeheer niveau 4, besloot ik dat ik mijn carrière wilde toewijden in de ICT. Dit betekend niet dat ik dit werkveld heb laten liggen sindsdien, ik ben nog steeds bezig met het configureren van nieuwe netwerken, IP cameras en NAS systemen wanneer ik niet aan het programmeren ben.',
 
     /*
-    Actual CV text
-*/
+        Actual CV text
+    */
     'carreerSoFar' => 'Mijn carrière tot nu toe.',
     'carreerSoFarQuote' => 'Mijn opleidingen en werkervaring.',
 
@@ -140,8 +149,8 @@ return [
     'with' => 'met',
 
     /*
-    Copyright
-*/
+        Copyright
+    */
     'copyright1' => 'Alle rechten voorbehouden | Met',
     'copyright2' => 'bedankt',
     'copyright3' => 'Colorlib',

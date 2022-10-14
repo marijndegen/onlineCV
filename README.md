@@ -1,9 +1,10 @@
 # onlineCV
 
 ### TODO / Ideeën lijst
+- duitse branch maken, waarop master staat met alle duitse dingen er nog bij.
 
-- css en photoshop weghalen, alleen css -- checken
 - bij ieder bedrijf zeggen welke programmeer / technologie er gewerkt is.
+- github projecten toevoegen en verhalen schrijven.
 - github toevoegen
 - python toevoegen
 - Devops en deep learning cnn's toevoegen als skill
