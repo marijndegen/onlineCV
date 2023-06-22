@@ -1,11 +1,9 @@
 # onlineCV
 
 ### TODO / Ideeën lijst
-- duitse branch maken, waarop master staat met alle duitse dingen er nog bij.
-
+- Lijst met repos op public zetten
+- Per programmeertaal verwijzen naar github projecten.
 - bij ieder bedrijf zeggen welke programmeer / technologie er gewerkt is.
-- github projecten toevoegen en verhalen schrijven.
-- github toevoegen
 - python toevoegen
 - Devops en deep learning cnn's toevoegen als skill
 - Video maken met Leon
@@ -39,6 +37,7 @@ To merge the PDF files, the npm package easy-pdf-merge is used. It requires at l
 > npm run php
 2. Run the puppeteer script
 > node puppeteer/generate.js
+
 
 
 # Delete me (github)

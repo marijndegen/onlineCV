@@ -83,9 +83,10 @@ return [
      */
     'toyotaStarletAutoStartHeading' => 'Starting car through app',
     'toyotaStarletAutoStart' => 'During the start of corona I decided to take some time off studying, during this break I decided I wanted to be able to start my car with my phone, so I created a Flutter Android App that started my 89\' Toyota Starlet car.',
+    'viewOn' => 'View on',
 
     'ethereumBlockChainProjectHeading' => 'Blockchain Ethereum Java',
-    'ethereumBlockChainProject' => 'In 2018 I had the honour to make a voting project based on blockchain during a school project, I implemented the communication between the blockchain smart contracts and the java backend.',
+    'ethereumBlockChainProject' => 'In 2018 I had the honour to make a voting system based on blockchain during a school project, I implemented the communication between the blockchain smart contracts and the java backend.',
 
     'onlineCVHeading' => 'This resume',
     'onlineCV' => 'The resume you are watching right now is a laravel website. Many people asked for a PDF version of it, so I hacked a javascript puppeteer script that generates it for them.',

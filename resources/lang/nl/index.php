@@ -81,17 +81,26 @@ return [
     /**
      * Features
      */
-    'toyotaStarletAutoStart' => 'During the start of corona I decided to take some time off studying, but not sleeping, I created a Flutter Android App that started my 89\' Toyota Starlet car.',
+    'toyotaStarletAutoStartHeading' => 'Auto starten via app',
+    'toyotaStarletAutoStart' => 'Tijdens het begin van de coronapandemie besloot ik om een pauze te nemen van mijn studie. Ik wilde altijd al mijn auto op een coolere manier kunnen starten, dus ik heb aangepaste hardware en een Flutter Android-app ontwikkelt om mijn Toyota Starlet uit 1989 kon starten.',
+    'viewOn' => 'Bekijk op',
 
-    'ethereumBlockChainProject' => 'In 2018 I had the honour to make a voting project based on blockchain during a school project, I implemented the communication between the blockchain smart contracts and the java backend.',
+    'ethereumBlockChainProjectHeading' => 'Blockchain Ethereum Java',
+    'ethereumBlockChainProject' => 'In 2018 had ik de eer om een stem systeem op basis van blockchain te ontwikkelen tijdens een schoolproject. Ik heb de communicatie geïmplementeerd tussen de smart contracts van de blockchain en de Java-backend.',
 
-    'onlineCV' => 'The resume you are watching right now is a laravel website. Many people asked for a PDF version of it, So I hacked a javascript puppeteerscript that generates it for them.',
+    'onlineCVHeading' => 'Dit CV',
+    'onlineCV' => 'Het CV dat je nu bekijkt, is een Laravel-website. Veel mensen vroegen om een PDF-versie ervan, dus heb ik een JavaScript-puppeteer-script gehackt dat het voor hen genereert.',
 
-    'rsaKeyPairEncrypter' => 'This laravel application enables you to encrypt your messages using RSA. This was a solo project just for gigs.',
+    'rsaKeyPairEncrypterHeading' => 'RSA-beveiligingswebapp',
+    'rsaKeyPairEncrypter' => 'Deze Laravel-toepassing stelt je in staat om je berichten te versleutelen met behulp van RSA. Dit was een soloproject, gewoon voor de lol.',
 
-    'multiChatApp' => 'For a school exercise a multichat app needed to be developed. The cool thing about this app is that it shows MVVM, C#, WPF and material design.',
+    'multiChatAppHeading' => 'Multichat WPF-toepassing',
+    'multiChatApp' => 'Deze native app demonstreert de communicatie tussen client en server en kan worden vergeleken met WhatsApp. Het leuke aan deze app is dat het MVVM, C#, WPF en material design laat zien.',
 
-    'javascriptSnake' => 'Play snake in the browser desktop! The best part of this game took just two hours to develop and consists of about 250 lines of javascript code. Play now: ',
+    'javascriptSnakeHeading' => 'Snake-browsergame',
+    'javascriptSnake' => 'Speel snake in de browser op je desktop! Het beste deel van dit spel kostte slechts twee uur om te ontwikkelen en bestaat uit ongeveer 250 regels JavaScript-code. Speel nu: ',
+
+    'viewOnGitHub' => 'Bekijk op GitHub',
 
     /*
         Career text

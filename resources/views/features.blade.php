@@ -23,6 +23,7 @@
                     <p>
                         {{ trans('index.toyotaStarletAutoStart')}}
                         <br><br>
+                        <a href="https://www.youtube.com/shorts/XPP4b3pTlww">View on <span class="badge badge-danger">YouTube Shorts</span></a><br>
                         <a href="https://github.com/marijndegen/toyotastarletautostart" target="_blank">{{ trans('index.viewOnGitHub') }}</a>
                     </p>
                 </div>
