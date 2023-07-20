@@ -1,5 +1,5 @@
 <!-- Start qualification Area -->
-<section class="qualification-area pb-80" id="qualification-area">
+<section class="qualification-area pb-60" id="qualification-area">
     <div class="container">
         <div class="row d-flex justify-content-center">
             <div class="menu-content pb-20 col-lg-8">

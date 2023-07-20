@@ -70,7 +70,7 @@
                 </div>
 
                 <div class="skillbar" data-percent="30%">
-                    <div class="skill-bar-percent">{{ trans('index.aboutCareerProgrammingCssAndPhotoshop') }} 30%</div>
+                    <div class="skill-bar-percent">{{ trans('index.aboutCareerProgrammingCss') }} 30%</div>
                     <div class="skillwrap">
                         <div class="skillbar-bar" style="width: 30%;"></div>
                     </div>

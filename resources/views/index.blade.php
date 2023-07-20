@@ -3,7 +3,7 @@
 @section('content')
 @include('header')
 @include('career')
-@include('info')
+@include('features')
 @include('skills')
 @include('footer')
 @endsection

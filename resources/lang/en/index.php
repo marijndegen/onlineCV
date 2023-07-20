@@ -1,19 +1,18 @@
 <?php
 
 return [
+    /*
+    |--------------------------------------------------------------------------
+    | Authentication Language Lines
+    |--------------------------------------------------------------------------
+    |
+    |The following lines of text are used on my personal English CV page.
+    |
+    */
 
     /*
-|--------------------------------------------------------------------------
-| Authentication Language Lines
-|--------------------------------------------------------------------------
-|
-|The following lines of text are used on my personal English CV page.
-|
-*/
-
-    /*
-    Header
-*/
+        Header
+    */
     'siteTitle' => 'Resume',
 
     /*WHEN CHANGING THESE, DON'T FORGET TO EDIT THE LINKS (yes, two links) IN THE .BLADE FILE!*/
@@ -28,8 +27,8 @@ return [
     'headerIntro' => 'Advanced web programmer and network manager.',
 
     /*
-    schools
-*/
+        schools
+    */
     'schoolItem1' => 'HBO - HAN UNIVERSITY OF APPLIED SIENCE',
     'schoolItem1Date' => 'September 2016 to June 2022',
     'schoolItem1Title' => 'Web development',
@@ -44,8 +43,8 @@ return [
     'schoolItem2OL3' => 'Basic programming with java & PHP',
 
     /*
-    Internships
-*/
+        Internships
+    */
     'internShipItem6' => 'Zoolt / FixPart',
     'internShipItem6Company' => 'The Netherlands',
     'internShipItem6Date' => '08/2021 - 7/2022',
@@ -79,23 +78,46 @@ return [
     'hideAllEmployers' => 'Hide employers',
     'showAllEmployers' => 'Show all employers',
 
+    /**
+     * Features
+     */
+    'toyotaStarletAutoStartHeading' => 'Starting car through app',
+    'toyotaStarletAutoStart' => 'During the start of corona I decided to take some time off studying, during this break I decided I wanted to be able to start my car with my phone, so I created a Flutter Android App that started my 89\' Toyota Starlet car.',
+    'viewOn' => 'View on',
+
+    'ethereumBlockChainProjectHeading' => 'Blockchain Ethereum Java',
+    'ethereumBlockChainProject' => 'In 2018 I had the honour to make a voting system based on blockchain during a school project, I implemented the communication between the blockchain smart contracts and the java backend.',
+
+    'onlineCVHeading' => 'This resume',
+    'onlineCV' => 'The resume you are watching right now is a laravel website. Many people asked for a PDF version of it, so I hacked a javascript puppeteer script that generates it for them.',
+
+    'rsaKeyPairEncrypterHeading' => 'RSA security WebApp',
+    'rsaKeyPairEncrypter' => 'This laravel application enables you to encrypt your messages using RSA. This was a solo project just for gigs.',
+
+    'multiChatAppHeading' => 'Multichat WPF application',
+    'multiChatApp' => 'This native app proves client server communication and can be compared to WhatsApp. The cool thing about this app is that it shows MVVM, C#, WPF and material design.',
+
+    'javascriptSnakeHeading' => 'Snake browser game',
+    'javascriptSnake' => 'Play snake in the browser desktop! The best part of this game took just two hours to develop and consists of about 250 lines of javascript code. Play now: ',
+
+    'viewOnGitHub' => 'View on GitHub',
     /*
-    Career text
-*/
+        Career text
+    */
     'aboutCareer' => 'About my career',
     'aboutCareerQuote' => 'Helping people with computer problems convinced me to be more dedicated to computers, programming and networks.',
 
     'aboutCareerProgramming' => 'Programming and general skills',
     'aboutCareerProgrammingDescription' => 'The percentage represents how comfortable I feel in programming with this topic.',
     'aboutCareerProgrammingTesting' => 'End-to-end testing with puppeteer, unit testing in general',
-    'aboutCareerProgrammingCssAndPhotoshop' => 'Css and photoshop',
+    'aboutCareerProgrammingCss' => 'Css and photoshop',
     'aboutCareerProgrammingNetworking' => 'Small bussiness to medium bussiness (wireless) networks',
     'aboutCareerProgrammingEnglish' => 'English language level:',
     'aboutCareerProgrammingGerman' => 'German language level:',
 
     /*
-    Card text
-*/
+        Card text
+    */
     'cardName' => 'Marijn Degen',
     'cardTitle1' => 'Full stack web developer',
     'cardTitle2' => 'App developer',
@@ -104,9 +126,9 @@ return [
     'cardTitle5' => 'Certificates',
 
     /*
-    Skills and projects
-*/
-    'skillAndProject' => 'Have a Look at my skills and projects',
+        Skills and projects
+    */
+    'skillAndProject' => 'Have a Look at my GitHub projects',
     'skillAndProjectQuote' => 'Programming and network management has been my passion for the past',
     'skillAndProjectQuoteP2' => 'years!',
     'tile1Title' => 'Full stack web programming',
@@ -122,8 +144,8 @@ return [
     'tile4Text' => 'After graduating in 2016 for my network management degree I decided that I wanted to become a complete technical person. This does not mean that I left this working field all toghether, I am still ambitious to setup new networks, IP cameras and network attached storages when I am not programming.',
 
     /*
-    Actual CV text
-*/
+        Actual CV text
+    */
     'carreerSoFar' => 'My career so far',
     'carreerSoFarQuote' => 'My educations and my work experience.',
 
@@ -133,8 +155,8 @@ return [
     'with' => 'with',
 
     /*
-    Copyright
-*/
+        Copyright
+    */
     'copyright1' => 'All rights reserved | With',
     'copyright2' => 'thank you kindly',
     'copyright3' => 'Colorlib',

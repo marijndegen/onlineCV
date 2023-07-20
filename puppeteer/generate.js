@@ -8,13 +8,13 @@ const pdfPartsPath = 'public/pdf-parts/'
 const parts = [
     { landscape: false, format: 'a3', name: 'header' },
     { landscape: false, format: 'a4', name: 'career' },
-    { landscape: false, format: 'a3', name: 'info' },
+    { landscape: false, format: 'a3', name: 'features' },
     { landscape: true, format: 'a3', name: 'skills' },
     { landscape: true, format: 'a5', name: 'footer' }
 ]
 
 // const locales = ['nl',]
-const locales = ['nl', 'en', 'de']
+const locales = ['nl', 'en']
 const url = process.env.APP_URL + '/PDF-generator/'
 
 async function printAndSaveMergePDF() {
