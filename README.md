@@ -2,15 +2,17 @@
 
 ### TODO / Ideeën lijst
 - Lijst met repos op public zetten
-- Per programmeertaal verwijzen naar github projecten.
-- bij ieder bedrijf zeggen welke programmeer / technologie er gewerkt is.
 - python toevoegen
 - Devops en deep learning cnn's toevoegen als skill
-- Video maken met Leon
-- Github (private repos) opruimen
+- Video maken met Leon ??
+- css los maken van photoshop, kijken of photoshop moet blijven.
+- bij ieder bedrijf zeggen welke programmeer / technologie er gewerkt is.
+    - resources/lang/en/index.php, hierin kunnen de tags niet staan, dan zou het language specifiek zijn, beter een directory/file in resources (in de vorm van een php multidemensionale php array) maken en daarin één language file maken voor alle talen.
+- Per programmeertaal verwijzen naar github projecten of tags erin zetten.
+
+
 
 ### installatie
-
 1. Clone repo
 2. composer install
 3. mv / copy .env.example .env
