@@ -42,7 +42,7 @@
                 <?php
                 $itemsToShow = 3;
                 ?>
-                @for($i = 6 ; $i > 0; $i--, $itemsToShow--)
+                @for($i = 7 ; $i > 0; $i--, $itemsToShow--)
 
                 @if($itemsToShow == 0 && !$pdfView)
                 <div class="collapse" id="collapseEmployees">

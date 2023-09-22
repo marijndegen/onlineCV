@@ -43,8 +43,13 @@ return [
     'schoolItem2OL3' => 'Basic programming with java & PHP',
 
     /*
-        Internships
+        Internships and work experience
     */
+    'internShipItem7' => 'CoVadem / Autena',
+    'internShipItem7Company' => 'Nederland',
+    'internShipItem7Date' => '01/2023 - current',
+    'internShipItem7Tasks' => 'Optimizing waterdepth maps and developing ContainerPlanner 3.0 for inland shipping vessels.',
+
     'internShipItem6' => 'Zoolt / FixPart',
     'internShipItem6Company' => 'The Netherlands',
     'internShipItem6Date' => '08/2021 - 7/2022',
