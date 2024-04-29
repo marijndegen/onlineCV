@@ -127,7 +127,9 @@ return [
     'cardTitle1' => 'Full stack web developer',
     'cardTitle2' => 'App developer',
     'cardTitle3' => 'Network manager',
-    'cardTitle4' => 'Driving licences: AM-B-BE-T',
+    'cardTitle4' => 'Driving licences:',
+    'cardTitle4a' => 'AM-B-BE-T',
+    'cardTitle4b' => 'Taxi pass (full driver card)',
     'cardTitle5' => 'Certificates',
 
     /*

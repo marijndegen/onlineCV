@@ -129,7 +129,9 @@ return [
     'cardTitle1' => 'Full stack web ontwikkelaar',
     'cardTitle2' => 'App ontwikkelaar',
     'cardTitle3' => 'Netwerk beheerder',
-    'cardTitle4' => 'Rijbewijzen: AM-B-BE-T',
+    'cardTitle4' => 'Rijbewijzen:',
+    'cardTitle4a' => 'AM-B-BE-T',
+    'cardTitle4b' => 'Taxipas (volledige chauffeurskaart)',
     'cardTitle5' => 'Certificaten',
 
 
