@@ -5,9 +5,14 @@ const { mainModule } = require('process')
 const merge = require('easy-pdf-merge')
 
 const pdfPartsPath = 'public/pdf-parts/'
+
+// landscape - horizontal or portrait,
+// format - size,
+// name - conceptual name,
+// pageRanges (optional) - if an additional blank page is generated for some reason
 const parts = [
     { landscape: false, format: 'a3', name: 'header' },
-    { landscape: false, format: 'a4', name: 'career' },
+    { landscape: false, format: 'a4', name: 'career', pageRanges: '1-2' },
     { landscape: false, format: 'a3', name: 'features' },
     { landscape: true, format: 'a3', name: 'skills' },
     { landscape: true, format: 'a5', name: 'footer' }
@@ -42,7 +47,7 @@ async function printPDFPart(locale, part) {
     const page = await browser.newPage()
 
     await page.goto(url + locale + '/' + part.name, { waitUntil: 'networkidle0' })
-    const pdf = await page.pdf({ landscape: part.landscape, format: part.format, printBackground: true })
+    const pdf = await page.pdf({ printBackground: true, ...part })
 
     await browser.close()
 
