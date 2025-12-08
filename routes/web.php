@@ -12,16 +12,18 @@
 */
 
 use App\Http\Controllers\LanguageController;
+use Illuminate\Support\Facades\Route;
+use Illuminate\Support\Facades\App;
 
-Route::get('/', 'LanguageController@select');
+Route::get('/', [LanguageController::class, 'select']);
 
 Route::get('/{locale}', function ($locale) {
     App::setLocale($locale);
-    return LanguageController::show();
+    return app(LanguageController::class)->show();
 });
 
 Route::get('/PDF-generator/{locale}/{page}', function ($locale, $page) {
     App::setLocale($locale);
 
-    return LanguageController::pdfGenerator($page);
+    return app(LanguageController::class)->pdfGenerator($page);
 });
