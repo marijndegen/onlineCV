@@ -2,7 +2,7 @@ require('dotenv').config()
 const puppeteer = require('puppeteer')
 var fs = require('fs').promises // don't forget to require in the header or it won't work
 const { mainModule } = require('process')
-const merge = require('easy-pdf-merge')
+const { PDFDocument } = require('pdf-lib')
 
 const pdfPartsPath = 'public/pdf-parts/'
 
@@ -20,7 +20,7 @@ const parts = [
 
 // const locales = ['nl',]
 const locales = ['nl', 'en']
-const url = process.env.APP_URL + '/PDF-generator/'
+const url = 'http://localhost:8000' + '/PDF-generator/'
 
 async function printAndSaveMergePDF() {
     for await (const locale of locales) {
@@ -32,21 +32,40 @@ async function printAndSaveMergePDF() {
         }
     }
 
-    locales.forEach(locale => {
-        merge(parts.map(part => pdfPartsPath + locale + '-' + part.name + '.pdf'), 'public/' + locale + '-cv.pdf', function (err) {
-            if (err) {
-                return console.log(err)
-            }
-            console.log('Successfully merged ' + locale + '!')
-        });
-    })
+    for await (const locale of locales) {
+        await mergePDFs(locale)
+    }
+}
+
+async function mergePDFs(locale) {
+    try {
+        const mergedPdf = await PDFDocument.create()
+        
+        for (const part of parts) {
+            const pdfPath = pdfPartsPath + locale + '-' + part.name + '.pdf'
+            const pdfBytes = await fs.readFile(pdfPath)
+            const pdf = await PDFDocument.load(pdfBytes)
+            const copiedPages = await mergedPdf.copyPages(pdf, pdf.getPageIndices())
+            copiedPages.forEach((page) => mergedPdf.addPage(page))
+        }
+        
+        const mergedPdfBytes = await mergedPdf.save()
+        await fs.writeFile('public/' + locale + '-cv.pdf', mergedPdfBytes)
+        console.log('Successfully merged ' + locale + '!')
+    } catch (err) {
+        console.log(err)
+    }
 }
 
 async function printPDFPart(locale, part) {
-    const browser = await puppeteer.launch({ headless: true })
+    const browser = await puppeteer.launch({ headless: false })
     const page = await browser.newPage()
+    
+    const fullUrl = url + locale + '/' + part.name;
 
-    await page.goto(url + locale + '/' + part.name, { waitUntil: 'networkidle0' })
+    console.log("ding" + fullUrl)
+
+    await page.goto(fullUrl, { waitUntil: 'networkidle0' })
     const pdf = await page.pdf({ printBackground: true, ...part })
 
     await browser.close()
