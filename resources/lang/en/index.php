@@ -168,6 +168,6 @@ return [
     'copyright2' => 'thank you kindly',
     'copyright3' => 'Colorlib',
     'copyright4' => ' for this cool template. ',
-    'copyright5' => ' KVK Netherlands Chamber of Commerce number: 72942371',
+    'copyright5' => ' KVK Netherlands Chamber of Commerce number: 72942371, VAT Number: NL002367669B12',
 
 ];
