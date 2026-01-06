@@ -171,6 +171,6 @@ return [
     'copyright2' => 'bedankt',
     'copyright3' => 'Colorlib',
     'copyright4' => ' voor deze coole template. ',
-    'copyright5' => ' KVK nummer (Nederland): 72942371',
+    'copyright5' => ' KVK nummer (Nederland): 72942371, BTW Nummer: NL002367669B12',
 
 ];
