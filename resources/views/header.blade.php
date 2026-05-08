@@ -5,7 +5,7 @@
         <nav class="navbar navbar-expand-lg  navbar-light">
             <div class="container" style="display:inline">
                 <div style="display:inline">
-                    <span>{{ trans('index.singleMail') }}: <a href="mailto:{{$email}}" target="_top">{{$email}}</a></span> ---
+                    {{--<span>{{ trans('index.singleMail') }}: <a href="mailto:{{$email}}" target="_top">{{$email}}</a></span>--}}
                     <span>{{ trans('index.singlePhone') }}:<a href="tel:{{$utel}}" target="_top">{{$tel}}</a></span>
                     <span style="width:350px; margin-left:20px;">
                         <a href="/nl"><img class="img-fluid" src="/img/flag_netherlands.png" alt=""></a>
