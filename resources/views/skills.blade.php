@@ -114,7 +114,7 @@
                         <p>{{ trans('index.cardTitle3') }}</p>
 
                         <p><span class="lnr lnr-phone"></span> <a href="tel:{{$utel}}" target="_top">{{$tel}}</a></p>
-                        <p><span class="lnr lnr-envelope"></span> <a href="mailto:{{$email}}" target="_top">{{$email}}</a></p>
+                        {{--<p><span class="lnr lnr-envelope"></span> <a href="mailto:{{$email}}" target="_top">{{$email}}</a></p>--}}
                         <p><span class="lnr lnr-pushpin"></span> Nijmegen</p>
                         <p><span class="lnr lnr-car"></span> {{ trans('index.cardTitle4') }} <ul><li>{{ trans('index.cardTitle4a') }}</li><li>{{ trans('index.cardTitle4b') }}</li></ul> </p>
 
